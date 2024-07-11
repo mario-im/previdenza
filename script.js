@@ -14,7 +14,20 @@ function loadMenu() {
 }
 
 function createMenuHTML(menuData) {
-    return `<ul>${menuData.map(item => `<li><a href="${item.link}">${item.text}</a></li>`).join('')}</ul>`;
+    return `<ul>${menuData.map(item => {
+        if (item.dropdown) {
+            return `
+                <li class="dropdown">
+                    <a href="${item.link}">${item.text}</a>
+                    <div class="dropdown-content">
+                        ${item.dropdown.map(subItem => `<a href="${subItem.link}">${subItem.text}</a>`).join('')}
+                    </div>
+                </li>
+            `;
+        } else {
+            return `<li><a href="${item.link}">${item.text}</a></li>`;
+        }
+    }).join('')}</ul>`;
 }
 
 function loadContent() {
