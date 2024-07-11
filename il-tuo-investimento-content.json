@@ -52,34 +52,35 @@
             "cta": {
                 "text": "Scopri di più",
                 "link": "vantaggi-fiscali.html"
-            }
-        },
-        {
-            "id": "deducibilita-fondo-pensione",
-            "title": "Deducibilità fondo pensione",
-            "text": "Informazioni sulla deducibilità fiscale dei contributi versati al fondo pensione.",
-            "cta": {
-                "text": "Calcola il risparmio",
-                "link": "#calcolo-deducibilita"
-            }
-        },
-        {
-            "id": "730-previdenza-complementare",
-            "title": "730 e previdenza complementare",
-            "text": "Come la previdenza complementare influisce sulla dichiarazione dei redditi.",
-            "cta": {
-                "text": "Guida alla compilazione",
-                "link": "#guida-730"
-            }
-        },
-        {
-            "id": "fondo-pensione-isee",
-            "title": "Fondo pensione ISEE",
-            "text": "L'impatto del fondo pensione sul calcolo dell'ISEE.",
-            "cta": {
-                "text": "Verifica l'impatto",
-                "link": "#impatto-isee"
-            }
+            },
+            "subsections": [
+                    {
+                        "id": "deducibilita-fondo-pensione",
+                        "title": "Deducibilità fondo pensione",
+                        "text": "Informazioni sulla deducibilità fiscale dei contributi versati al fondo pensione.",
+                        "cta": {
+                            "text": "Calcola il risparmio",
+                            "link": "#calcolo-deducibilita"
+                        }
+                    },
+                    {
+                        "id": "730-previdenza-complementare",
+                        "title": "730 e previdenza complementare",
+                        "text": "Come la previdenza complementare influisce sulla dichiarazione dei redditi.",
+                        "cta": {
+                            "text": "Guida alla compilazione",
+                            "link": "#guida-730"
+                        }
+                    },
+                    {
+                        "id": "fondo-pensione-isee",
+                        "title": "Fondo pensione ISEE",
+                        "text": "L'impatto del fondo pensione sul calcolo dell'ISEE.",
+                        "cta": {
+                            "text": "Verifica l'impatto",
+                            "link": "#impatto-isee"
+                        }
+                    ]
         },
         {
             "id": "calcolo-pensionistico",
