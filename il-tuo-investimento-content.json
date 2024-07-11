@@ -7,25 +7,27 @@
             "cta": {
                 "text": "Scopri di più",
                 "link": "adesione-fondo-pensione.html"
-            }
-        },
-        {
-            "id": "nuovo-fondo-pensione",
-            "title": "Non hai un fondo pensione o vuoi trasferiere il tuo?",
-            "text": "Informazioni per chi non ha ancora un fondo pensione o desidera trasferirlo.",
-            "cta": {
-                "text": "Scopri le opzioni",
-                "link": "#nuovo-fondo-pensione"
-            }
-        },
-        {
-            "id": "pensione-integrativa-dettagli",
-            "title": "Pensione Integrativa",
-            "text": "Dettagli sulla pensione integrativa e come può beneficiarti.",
-            "cta": {
-                "text": "Approfondisci",
-                "link": "#pensione-integrativa-dettagli"
-            }
+            },
+            "subsections": [
+                {
+                        "id": "nuovo-fondo-pensione",
+                        "title": "Non hai un fondo pensione o vuoi trasferiere il tuo?",
+                        "text": "Informazioni per chi non ha ancora un fondo pensione o desidera trasferirlo.",
+                        "cta": {
+                            "text": "Scopri le opzioni",
+                            "link": "#nuovo-fondo-pensione"
+                        }
+                 },
+                {
+                    "id": "pensione-integrativa-dettagli",
+                    "title": "Pensione Integrativa",
+                    "text": "Dettagli sulla pensione integrativa e come può beneficiarti.",
+                    "cta": {
+                        "text": "Approfondisci",
+                        "link": "#pensione-integrativa-dettagli"
+                    }
+                }
+            ]
         },
         {
             "id": "previdenza-obbligatoria",
