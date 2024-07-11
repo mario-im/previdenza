@@ -31,7 +31,10 @@ function createMenuHTML(menuData) {
 }
 
 function loadContent() {
-    const pageName = window.location.pathname.split("/").pop().split(".")[0] || 'index';
+    let pageName = window.location.pathname.split("/").pop().split(".")[0];
+    if (pageName === '' || pageName === 'index') {
+        pageName = 'previdenza-complementare';
+    }
     fetch(`${pageName}-content.json`)
         .then(response => response.json())
         .then(data => {
@@ -43,12 +46,24 @@ function loadContent() {
 }
 
 function createContentHTML(contentData) {
-    return contentData.sections.map(section => `
-        <section class="content-box" data-id="${section.id}">
-            <h1>${section.title}</h1>
-            ${section.subsections ? createSubsectionsHTML(section.subsections) : ''}
-        </section>
-    `).join('');
+    if (contentData.sections[0].subsections) {
+        // Formato per "I nostri fondi pensione"
+        return contentData.sections.map(section => `
+            <section class="content-box" data-id="${section.id}">
+                <h1>${section.title}</h1>
+                ${createSubsectionsHTML(section.subsections)}
+            </section>
+        `).join('');
+    } else {
+        // Formato per "Previdenza complementare"
+        return contentData.sections.map(section => `
+            <div class="content-box" data-id="${section.id}">
+                <h2>${section.title}</h2>
+                <p>${section.text}</p>
+                <a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>
+            </div>
+        `).join('');
+    }
 }
 
 function createSubsectionsHTML(subsections) {
@@ -60,12 +75,12 @@ function createSubsectionsHTML(subsections) {
         </div>
     `).join('');
 }
+
 function initSortable() {
     new Sortable(document.getElementById('content'), {
         animation: 150,
         ghostClass: 'blue-background-class',
         onEnd: function(evt) {
-            // Qui puoi aggiungere la logica per salvare l'ordine dei contenuti
             console.log('Nuovo ordine:', getContentOrder());
         }
     });
