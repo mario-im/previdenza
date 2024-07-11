@@ -3,37 +3,46 @@
         {
             "id": "comparti",
             "title": "I comparti",
+            "text": "Descrizione generale dei comparti disponibili.",
+            "cta": {
+                "text": "Esplora i comparti",
+                "link": "#comparti-dettaglio"
+            },
             "subsections": [
                 {
+                    "id": "crescita-sostenibile",
                     "title": "Crescita sostenibile",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "text": "Il comparto Crescita sostenibile mira a una crescita del capitale nel lungo termine.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#crescita-sostenibile-details"
+                        "link": "#crescita-sostenibile"
                     }
                 },
                 {
+                    "id": "rendita-sostenibile",
                     "title": "Rendita Sostenibile",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "text": "Il comparto Rendita Sostenibile si concentra sulla generazione di rendite stabili.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#rendita-sostenibile-details"
+                        "link": "#rendita-sostenibile"
                     }
                 },
                 {
+                    "id": "alta-crescita-sostenibile",
                     "title": "Alta Crescita sostenibile",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "text": "Il comparto Alta Crescita sostenibile punta a massimizzare la crescita nel lungo periodo.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#alta-crescita-details"
+                        "link": "#alta-crescita-sostenibile"
                     }
                 },
                 {
-                    "title": "Obbiettivo TFR",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "id": "obiettivo-tfr",
+                    "title": "Obiettivo TFR",
+                    "text": "Il comparto Obiettivo TFR mira a replicare la rivalutazione del TFR.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#obiettivo-tfr-details"
+                        "link": "#obiettivo-tfr"
                     }
                 }
             ]
@@ -41,21 +50,28 @@
         {
             "id": "punti-di-forza",
             "title": "I punti di forza",
+            "text": "I nostri fondi pensione offrono diversi vantaggi competitivi.",
+            "cta": {
+                "text": "Scopri i vantaggi",
+                "link": "#vantaggi"
+            },
             "subsections": [
                 {
+                    "id": "lifecycle",
                     "title": "LifeCycle",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "text": "Il LifeCycle adatta automaticamente l'investimento al tuo orizzonte temporale.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#lifecycle-details"
+                        "link": "#lifecycle"
                     }
                 },
                 {
+                    "id": "arcaclick",
                     "title": "ARCAclick",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "text": "ARCAclick offre una gestione semplificata del tuo fondo pensione online.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#arcaclick-details"
+                        "link": "#arcaclick"
                     }
                 }
             ]
@@ -63,13 +79,19 @@
         {
             "id": "perche-sceglierlo",
             "title": "Perché sceglierlo",
+            "text": "Ci sono molte ragioni per scegliere i nostri fondi pensione.",
+            "cta": {
+                "text": "Scopri perché",
+                "link": "#motivi"
+            },
             "subsections": [
                 {
+                    "id": "vantaggi-fiscali",
                     "title": "Vantaggi fiscali",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "text": "I nostri fondi pensione offrono significativi vantaggi fiscali.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#vantaggi-fiscali-details"
+                        "link": "#vantaggi-fiscali"
                     }
                 }
             ]

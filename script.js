@@ -66,13 +66,27 @@ function loadContent() {
 
 // Funzione per creare l'HTML del contenuto
 function createContentHTML(contentData) {
-    return contentData.sections.map(section => `
-        <div class="content-box" data-id="${section.id}">
-            <h2>${section.title}</h2>
-            <p>${section.text}</p>
-            <a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>
-        </div>
-    `).join('');
+    return contentData.sections.map(section => {
+        let sectionHTML = `
+            <div class="content-box" data-id="${section.id}">
+                <h2>${section.title}</h2>
+                <p>${section.text}</p>
+                <a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>
+        `;
+
+        if (section.subsections) {
+            sectionHTML += section.subsections.map(subsection => `
+                <div class="subsection" data-id="${subsection.id}">
+                    <h3>${subsection.title}</h3>
+                    <p>${subsection.text}</p>
+                    <a href="${subsection.cta.link}" class="cta-button">${subsection.cta.text}</a>
+                </div>
+            `).join('');
+        }
+
+        sectionHTML += '</div>';
+        return sectionHTML;
+    }).join('');
 }
 
 // Funzione per inizializzare la funzionalità di riordino
