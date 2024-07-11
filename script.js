@@ -46,6 +46,7 @@ function createContentHTML(contentData) {
         <div class="content-box" data-id="${section.id}">
             <h2>${section.title}</h2>
             <p>${section.text}</p>
+            <a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>
         </div>
     `).join('');
 }

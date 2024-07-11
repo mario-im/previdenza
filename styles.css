@@ -65,3 +65,20 @@ main {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* CTA */
+
+.cta-button {
+    display: inline-block;
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #004c99;
+}

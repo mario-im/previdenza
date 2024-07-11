@@ -3,17 +3,56 @@
         {
             "id": "perche-pensione-integrativa",
             "title": "Perché una pensione integrativa?",
-            "text": "La pensione integrativa è diventata sempre più importante per garantire un futuro finanziario stabile. Con l'aumento dell'aspettativa di vita e la diminuzione delle prestazioni pensionistiche pubbliche, integrare la pensione di base è fondamentale per mantenere il proprio tenore di vita dopo il pensionamento."
+            "text": "La pensione integrativa è diventata sempre più importante per garantire un futuro finanziario stabile. Con l'aumento dell'aspettativa di vita e la diminuzione delle prestazioni pensionistiche pubbliche, integrare la pensione di base è fondamentale per mantenere il proprio tenore di vita dopo il pensionamento.",
+            "cta": {
+                "text": "Scopri i vantaggi",
+                "link": "#vantaggi-pensione-integrativa"
+            }
         },
         {
             "id": "cosa-previdenza-complementare",
             "title": "Che cos'è la previdenza complementare?",
-            "text": "La previdenza complementare è una forma di risparmio che si affianca alla pensione pubblica. Si tratta di un sistema di accumulo di capitale che, attraverso versamenti periodici e una gestione professionale, mira a costruire una rendita aggiuntiva per il periodo di pensionamento."
+            "text": "La previdenza complementare è una forma di risparmio che si affianca alla pensione pubblica. Si tratta di un sistema di accumulo di capitale che, attraverso versamenti periodici e una gestione professionale, mira a costruire una rendita aggiuntiva per il periodo di pensionamento.",
+            "cta": {
+                "text": "Approfondisci",
+                "link": "#approfondimento-previdenza-complementare"
+            }
         },
         {
             "id": "obiettivo-previdenza-complementare",
             "title": "Qual è l'obiettivo della previdenza complementare?",
-            "text": "L'obiettivo principale della previdenza complementare è quello di integrare la pensione pubblica, garantendo un reddito aggiuntivo durante il periodo di pensionamento. Questo permette di mantenere un tenore di vita adeguato e di affrontare con maggiore serenità le esigenze economiche della terza età."
+            "text": "L'obiettivo principale della previdenza complementare è quello di integrare la pensione pubblica, garantendo un reddito aggiuntivo durante il periodo di pensionamento. Questo permette di mantenere un tenore di vita adeguato e di affrontare con maggiore serenità le esigenze economiche della terza età.",
+            "cta": {
+                "text": "Scopri gli obiettivi",
+                "link": "#obiettivi-dettagliati"
+            }
+        },
+        {
+            "id": "sei-iscritto",
+            "title": "E tu? Sei già iscritto?",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
+            "cta": {
+                "text": "Iscriviti ora",
+                "link": "#form-iscrizione"
+            }
+        },
+        {
+            "id": "schede-prodotto",
+            "title": "Schede prodotto",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
+            "cta": {
+                "text": "Visualizza le schede",
+                "link": "#elenco-schede-prodotto"
+            }
+        },
+        {
+            "id": "aderisci-online",
+            "title": "Aderisci online",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
+            "cta": {
+                "text": "Aderisci ora",
+                "link": "#adesione-online"
+            }
         }
     ]
 }
