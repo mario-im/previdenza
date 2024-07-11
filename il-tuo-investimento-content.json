@@ -1,0 +1,156 @@
+{
+    "sections": [
+        {
+            "id": "adesione-fondo-pensione",
+            "title": "L'adesione al fondo pensione",
+            "text": "Informazioni su come aderire al fondo pensione e i passaggi necessari.",
+            "cta": {
+                "text": "Scopri di più",
+                "link": "adesione-fondo-pensione.html"
+            },
+            "subsections": [
+                {
+                    "title": "Non hai un fondo pensione o vuoi trasferiere il tuo?",
+                    "text": "Informazioni per chi non ha ancora un fondo pensione o desidera trasferirlo.",
+                    "cta": {
+                        "text": "Scopri le opzioni",
+                        "link": "#nuovo-fondo-pensione"
+                    }
+                },
+                {
+                    "title": "Pensione Integrativa",
+                    "text": "Dettagli sulla pensione integrativa e come può beneficiarti.",
+                    "cta": {
+                        "text": "Approfondisci",
+                        "link": "#pensione-integrativa-dettagli"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "previdenza-obbligatoria",
+            "title": "Previdenza obbligatoria",
+            "text": "Dettagli sulla previdenza obbligatoria e come si integra con il fondo pensione.",
+            "cta": {
+                "text": "Scopri di più",
+                "link": "previdenza-obbligatoria.html"
+            }
+        },
+        {
+            "id": "tfr-fondo-pensione",
+            "title": "Il TFR nel fondo pensione",
+            "text": "Informazioni su come il TFR può essere utilizzato nel fondo pensione.",
+            "cta": {
+                "text": "Scopri di più",
+                "link": "tfr-fondo-pensione.html"
+            }
+        },
+        {
+            "id": "vantaggi-fiscali",
+            "title": "Vantaggi fiscali",
+            "text": "Panoramica dei vantaggi fiscali associati all'adesione a un fondo pensione.",
+            "cta": {
+                "text": "Scopri di più",
+                "link": "vantaggi-fiscali.html"
+            },
+            "subsections": [
+                {
+                    "title": "Deducibilità fondo pensione",
+                    "text": "Informazioni sulla deducibilità fiscale dei contributi versati al fondo pensione.",
+                    "cta": {
+                        "text": "Calcola il risparmio",
+                        "link": "#calcolo-deducibilita"
+                    }
+                },
+                {
+                    "title": "730 e previdenza complementare",
+                    "text": "Come la previdenza complementare influisce sulla dichiarazione dei redditi.",
+                    "cta": {
+                        "text": "Guida alla compilazione",
+                        "link": "#guida-730"
+                    }
+                },
+                {
+                    "title": "Fondo pensione ISEE",
+                    "text": "L'impatto del fondo pensione sul calcolo dell'ISEE.",
+                    "cta": {
+                        "text": "Verifica l'impatto",
+                        "link": "#impatto-isee"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "calcolo-pensionistico",
+            "title": "Calcolo pensionistico",
+            "text": "Strumenti e informazioni per calcolare la tua pensione futura.",
+            "cta": {
+                "text": "Fai una simulazione",
+                "link": "calcolo-pensionistico.html"
+            }
+        },
+        {
+            "id": "risparmio-fiscale-previdenza",
+            "title": "Scopri il risparmio fiscale sulla previdenza",
+            "text": "Approfondimenti sul risparmio fiscale legato alla previdenza complementare.",
+            "cta": {
+                "text": "Calcola il tuo risparmio",
+                "link": "risparmio-fiscale-previdenza.html"
+            }
+        },
+        {
+            "id": "pensione-integrativa",
+            "title": "Pensione Integrativa",
+            "text": "Informazioni dettagliate sulla pensione integrativa e i suoi benefici.",
+            "cta": {
+                "text": "Scopri i vantaggi",
+                "link": "pensione-integrativa.html"
+            }
+        },
+        {
+            "id": "come-versare",
+            "title": "Come versare",
+            "text": "Guida pratica su come effettuare i versamenti al fondo pensione.",
+            "cta": {
+                "text": "Istruzioni per i versamenti",
+                "link": "come-versare.html"
+            }
+        },
+        {
+            "id": "anticipazioni",
+            "title": "Anticipazioni",
+            "text": "Informazioni sulle possibilità di anticipazione dal fondo pensione.",
+            "cta": {
+                "text": "Scopri le condizioni",
+                "link": "anticipazioni.html"
+            }
+        },
+        {
+            "id": "rita",
+            "title": "R.I.T.A.",
+            "text": "Dettagli sulla Rendita Integrativa Temporanea Anticipata (R.I.T.A.).",
+            "cta": {
+                "text": "Approfondisci",
+                "link": "rita.html"
+            }
+        },
+        {
+            "id": "una-volta-in-pensione",
+            "title": "Una volta in pensione",
+            "text": "Informazioni su cosa succede al tuo fondo pensione una volta raggiunta l'età pensionabile.",
+            "cta": {
+                "text": "Scopri le opzioni",
+                "link": "una-volta-in-pensione.html"
+            }
+        },
+        {
+            "id": "documentazione",
+            "title": "Documentazione",
+            "text": "Accesso a tutti i documenti e le informazioni legali relative al fondo pensione.",
+            "cta": {
+                "text": "Accedi ai documenti",
+                "link": "documentazione.html"
+            }
+        }
+    ]
+}
