@@ -1,4 +1,4 @@
-// Aspetta che il DOM sia completamente caricato prima di eseguire lo script
+// Attende che il DOM sia completamente caricato prima di eseguire le funzioni
 document.addEventListener('DOMContentLoaded', function() {
     loadMenu();
     loadContent();
@@ -11,11 +11,12 @@ function loadMenu() {
         .then(data => {
             const nav = document.getElementById('main-nav');
             nav.innerHTML = createMenuHTML(data);
+            initMobileMenu();
         })
         .catch(error => console.error('Errore nel caricamento del menu:', error));
 }
 
-// Funzione per creare l'HTML del menu
+// Funzione per creare l'HTML del menu basato sui dati JSON
 function createMenuHTML(menuData) {
     return `<ul>${menuData.map(item => {
         if (item.dropdown) {
@@ -35,73 +36,52 @@ function createMenuHTML(menuData) {
     }).join('')}</ul>`;
 }
 
-// Funzione per caricare il contenuto della pagina corrente
+// Inizializza il comportamento del menu per dispositivi mobili
+function initMobileMenu() {
+    const dropdowns = document.querySelectorAll('.dropdown');
+    dropdowns.forEach(dropdown => {
+        dropdown.addEventListener('click', function(e) {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                this.classList.toggle('active');
+            }
+        });
+    });
+}
+
+// Funzione per caricare il contenuto della pagina
 function loadContent() {
     // Determina il nome della pagina corrente
     let pageName = window.location.pathname.split("/").pop().split(".")[0];
     if (pageName === '' || pageName === 'index') {
         pageName = 'previdenza-complementare';
     }
-    console.log('Caricamento contenuto per la pagina:', pageName);
-
     // Carica il JSON corrispondente alla pagina
     fetch(`${pageName}-content.json`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
-            console.log('Dati JSON caricati:', data);
             const content = document.getElementById('content');
             content.innerHTML = createContentHTML(data);
             initSortable();
         })
-        .catch(error => {
-            console.error('Errore nel caricamento dei contenuti:', error);
-            document.getElementById('content').innerHTML = `<p>Errore nel caricamento dei contenuti: ${error.message}</p>`;
-        });
+        .catch(error => console.error('Errore nel caricamento dei contenuti:', error));
 }
 
-// Funzione per creare l'HTML del contenuto
+// Funzione per creare l'HTML del contenuto basato sui dati JSON
 function createContentHTML(contentData) {
-    return contentData.sections.map(section => {
-        let sectionHTML = `
-            <div class="content-box" data-id="${section.id}">
-                <h2>${section.title}</h2>
-                <p>${section.text}</p>
-                <a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>
-        `;
-
-        if (section.subsections) {
-            sectionHTML += section.subsections.map(subsection => `
-                <div class="subsection" data-id="${subsection.id}">
-                    <h3>${subsection.title}</h3>
-                    <p>${subsection.text}</p>
-                    <a href="${subsection.cta.link}" class="cta-button">${subsection.cta.text}</a>
-                </div>
-            `).join('');
-        }
-
-        sectionHTML += '</div>';
-        return sectionHTML;
-    }).join('');
+    return contentData.sections.map(section => `
+        <div class="content-box" data-id="${section.id}">
+            <h2>${section.title}</h2>
+            <p>${section.text}</p>
+            <a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>
+        </div>
+    `).join('');
 }
 
-// Funzione per inizializzare la funzionalità di riordino
+// Inizializza la funzionalità di riordino dei contenuti
 function initSortable() {
     new Sortable(document.getElementById('content'), {
         animation: 150,
-        ghostClass: 'blue-background-class',
-        onEnd: function(evt) {
-            console.log('Nuovo ordine:', getContentOrder());
-        }
+        ghostClass: 'blue-background-class'
     });
-}
-
-// Funzione per ottenere l'ordine corrente dei contenuti
-function getContentOrder() {
-    return Array.from(document.querySelectorAll('.content-box'))
-        .map(box => box.getAttribute('data-id'));
 }
