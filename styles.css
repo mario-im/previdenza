@@ -1,100 +1,181 @@
-body {
-    font-family: Arial, sans-serif;
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --background-color: #ecf0f1;
+    --text-color: #34495e;
+    --transition-speed: 0.3s;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #003366;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-}
-
-nav ul {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
     list-style-type: none;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
     color: white;
     text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-.content-box {
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 20px;
-    cursor: move;
-}
-
-
-.subsection {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #ffffff;
-    border: 1px solid #eee;
-}
-
-.subsection h2 {
-    color: #003366;
-    margin-top: 0;
-}
-
-
-.content-box h2 {
-    margin-top: 0;
-}
-.dropdown {
+    font-weight: 500;
+    transition: all var(--transition-speed);
+  }
+  
+  nav ul li a:hover {
+    color: var(--secondary-color);
+  }
+  
+  .dropdown {
     position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
+  }
+  
+  .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all var(--transition-speed);
+  }
+  
+  .dropdown-content a {
+    color: var(--text-color);
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
-}
-
-.dropdown:hover .dropdown-content {
+    transition: background-color var(--transition-speed);
+  }
+  
+  .dropdown-content a:hover {
+    background-color: var(--background-color);
+  }
+  
+  .dropdown:hover .dropdown-content {
     display: block;
-}
-
-/* CTA */
-
-.cta-button {
+    animation: fadeIn var(--transition-speed);
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 20px;
+  }
+  
+  .content-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all var(--transition-speed);
+  }
+  
+  .content-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-box h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+  }
+  
+  .subsection {
+    background-color: var(--background-color);
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .subsection h3 {
+    color: var(--secondary-color);
+  }
+  
+  .cta-button {
     display: inline-block;
-    background-color: #003366;
+    background-color: var(--primary-color);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #004c99;
-}
-
-
+    border-radius: 30px;
+    transition: all var(--transition-speed);
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Effetto wow per il caricamento dei contenuti */
+  .content-box {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Aggiunge un ritardo progressivo all'animazione di ogni box */
+  .content-box:nth-child(1) { animation-delay: 0.1s; }
+  .content-box:nth-child(2) { animation-delay: 0.2s; }
+  .content-box:nth-child(3) { animation-delay: 0.3s; }
+  /* ... aggiungi più se necessario ... */
+  
+  /* Stile per il riordino */
+  .sortable-ghost {
+    opacity: 0.4;
+    background-color: var(--background-color);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .dropdown-content {
+      position: static;
+      display: none;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
