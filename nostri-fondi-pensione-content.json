@@ -1,0 +1,78 @@
+{
+    "sections": [
+        {
+            "id": "comparti",
+            "title": "I comparti",
+            "subsections": [
+                {
+                    "title": "Crescita sostenibile",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "cta": {
+                        "text": "Scopri di più",
+                        "link": "#crescita-sostenibile-details"
+                    }
+                },
+                {
+                    "title": "Rendita Sostenibile",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "cta": {
+                        "text": "Scopri di più",
+                        "link": "#rendita-sostenibile-details"
+                    }
+                },
+                {
+                    "title": "Alta Crescita sostenibile",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "cta": {
+                        "text": "Scopri di più",
+                        "link": "#alta-crescita-details"
+                    }
+                },
+                {
+                    "title": "Obbiettivo TFR",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "cta": {
+                        "text": "Scopri di più",
+                        "link": "#obiettivo-tfr-details"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "punti-di-forza",
+            "title": "I punti di forza",
+            "subsections": [
+                {
+                    "title": "LifeCycle",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "cta": {
+                        "text": "Scopri di più",
+                        "link": "#lifecycle-details"
+                    }
+                },
+                {
+                    "title": "ARCAclick",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "cta": {
+                        "text": "Scopri di più",
+                        "link": "#arcaclick-details"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "perche-sceglierlo",
+            "title": "Perché sceglierlo",
+            "subsections": [
+                {
+                    "title": "Vantaggi fiscali",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.",
+                    "cta": {
+                        "text": "Scopri di più",
+                        "link": "#vantaggi-fiscali-details"
+                    }
+                }
+            ]
+        }
+    ]
+}

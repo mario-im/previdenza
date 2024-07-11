@@ -31,7 +31,8 @@ function createMenuHTML(menuData) {
 }
 
 function loadContent() {
-    fetch('previdenza-complementare.json')
+    const pageName = window.location.pathname.split("/").pop().split(".")[0] || 'index';
+    fetch(`${pageName}-content.json`)
         .then(response => response.json())
         .then(data => {
             const content = document.getElementById('content');
@@ -43,14 +44,22 @@ function loadContent() {
 
 function createContentHTML(contentData) {
     return contentData.sections.map(section => `
-        <div class="content-box" data-id="${section.id}">
-            <h2>${section.title}</h2>
-            <p>${section.text}</p>
-            <a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>
-        </div>
+        <section class="content-box" data-id="${section.id}">
+            <h1>${section.title}</h1>
+            ${section.subsections ? createSubsectionsHTML(section.subsections) : ''}
+        </section>
     `).join('');
 }
 
+function createSubsectionsHTML(subsections) {
+    return subsections.map(subsection => `
+        <div class="subsection">
+            <h2>${subsection.title}</h2>
+            <p>${subsection.text}</p>
+            <a href="${subsection.cta.link}" class="cta-button">${subsection.cta.text}</a>
+        </div>
+    `).join('');
+}
 function initSortable() {
     new Sortable(document.getElementById('content'), {
         animation: 150,
