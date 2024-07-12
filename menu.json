@@ -35,7 +35,7 @@
         "dropdown": [
             {
                 "text": "L'adesione al fondo pensione",
-                "link": "#adesione"
+                "link": "adesione-fondo-pensione.html"
             },
             {
                 "text": "Previdenza obbligatoria",
