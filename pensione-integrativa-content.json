@@ -1,0 +1,29 @@
+{
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Pensione Integrativa",
+            "text": "Questa è una panoramica su Pensione Integrativa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "id": "dettagli",
+            "title": "Dettagli su Pensione Integrativa",
+            "text": "Qui troverai informazioni dettagliate su Pensione Integrativa. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "id": "vantaggi",
+            "title": "Vantaggi",
+            "text": "I principali vantaggi di Pensione Integrativa includono: \n• Punto 1\n• Punto 2\n• Punto 3"
+        },
+        {
+            "id": "come-funziona",
+            "title": "Come funziona",
+            "text": "Ecco come funziona Pensione Integrativa:\n1. Passo uno\n2. Passo due\n3. Passo tre"
+        },
+        {
+            "id": "conclusioni",
+            "title": "Conclusioni",
+            "text": "In conclusione, Pensione Integrativa è un aspetto importante della previdenza complementare. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+    ]
+}
