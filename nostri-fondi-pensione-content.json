@@ -6,7 +6,7 @@
             "text": "Descrizione generale dei comparti disponibili.",
             "cta": {
                 "text": "Esplora i comparti",
-                "link": "#comparti-dettaglio"
+                "link": "comparti-dettaglio.html"
             },
             "subsections": [
                 {
@@ -53,7 +53,7 @@
             "text": "I nostri fondi pensione offrono diversi vantaggi competitivi.",
             "cta": {
                 "text": "Scopri i vantaggi",
-                "link": "#vantaggi"
+                "link": "vantaggi.html"
             },
             "subsections": [
                 {
@@ -82,7 +82,7 @@
             "text": "Ci sono molte ragioni per scegliere i nostri fondi pensione.",
             "cta": {
                 "text": "Scopri perché",
-                "link": "#motivi"
+                "link": "motivi.html"
             },
             "subsections": [
                 {
