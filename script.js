@@ -1,4 +1,3 @@
-// Attende che il DOM sia completamente caricato prima di eseguire le funzioni
 document.addEventListener('DOMContentLoaded', function() {
     loadMenu();
     loadContent();
@@ -6,38 +5,47 @@ document.addEventListener('DOMContentLoaded', function() {
     initMobileMenu();
 });
 
-// Funzione per caricare il menu da un file JSON
 function loadMenu() {
     fetch('menu.json')
         .then(response => response.json())
         .then(data => {
             const nav = document.getElementById('main-nav');
             nav.innerHTML = createMenuHTML(data);
+            initDropdownAccessibility();
         })
         .catch(error => console.error('Errore nel caricamento del menu:', error));
 }
 
-// Funzione per creare l'HTML del menu basato sui dati JSON
 function createMenuHTML(menuData) {
     return `<ul>${menuData.map(item => {
         if (item.dropdown) {
-            // Crea un elemento di menu dropdown se sono presenti sottovoci
             return `
                 <li class="dropdown">
-                    <a href="${item.link}">${item.text}</a>
+                    <a href="${item.link}" aria-haspopup="true" aria-expanded="false">${item.text}</a>
                     <div class="dropdown-content">
                         ${item.dropdown.map(subItem => `<a href="${subItem.link}">${subItem.text}</a>`).join('')}
                     </div>
                 </li>
             `;
         } else {
-            // Crea un elemento di menu semplice se non ci sono sottovoci
             return `<li><a href="${item.link}">${item.text}</a></li>`;
         }
     }).join('')}</ul>`;
 }
 
-// Funzione per caricare il contenuto della pagina
+function initDropdownAccessibility() {
+    const dropdowns = document.querySelectorAll('.dropdown > a');
+    dropdowns.forEach(dropdown => {
+        dropdown.addEventListener('click', function(e) {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
+                this.nextElementSibling.style.display = this.getAttribute('aria-expanded') === 'true' ? 'block' : 'none';
+            }
+        });
+    });
+}
+
 function loadContent() {
     let pageName = window.location.pathname.split("/").pop().split(".")[0];
     if (pageName === '' || pageName === 'index') {
@@ -53,7 +61,6 @@ function loadContent() {
         .catch(error => console.error('Errore nel caricamento dei contenuti:', error));
 }
 
-// Funzione per creare l'HTML del contenuto basato sui dati JSON
 function createContentHTML(contentData) {
     return contentData.sections.map(section => `
         <div class="content-box" data-id="${section.id}">
@@ -64,7 +71,6 @@ function createContentHTML(contentData) {
     `).join('');
 }
 
-// Inizializza la funzionalità di riordino dei contenuti
 function initSortable() {
     new Sortable(document.getElementById('content'), {
         animation: 150,
@@ -72,10 +78,9 @@ function initSortable() {
     });
 }
 
-// Gestisce il comportamento dell'header durante lo scroll
 function initScrollBehavior() {
     const header = document.querySelector('header');
-    const scrollThreshold = 100; // Soglia di scroll per attivare la trasformazione
+    const scrollThreshold = 50;
 
     window.addEventListener('scroll', () => {
         if (window.scrollY > scrollThreshold) {
@@ -86,7 +91,6 @@ function initScrollBehavior() {
     });
 }
 
-// Inizializza il menu mobile
 function initMobileMenu() {
     const menuToggle = document.createElement('button');
     menuToggle.classList.add('menu-toggle');
@@ -99,15 +103,18 @@ function initMobileMenu() {
     menuToggle.addEventListener('click', function() {
         const mainNav = document.getElementById('main-nav');
         mainNav.classList.toggle('active');
+        this.setAttribute('aria-expanded', mainNav.classList.contains('active'));
         this.innerHTML = mainNav.classList.contains('active') ? '✕' : '☰';
     });
-
-    // Gestione dei dropdown nel menu mobile
-    document.addEventListener('click', function(e) {
-        if (window.innerWidth <= 768 && e.target.closest('.dropdown')) {
-            e.preventDefault();
-            const dropdown = e.target.closest('.dropdown');
-            dropdown.classList.toggle('active');
-        }
-    });
 }
+
+// Gestione focus per accessibilità da tastiera
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const activeDropdown = document.querySelector('.dropdown-content[style="display: block;"]');
+        if (activeDropdown) {
+            activeDropdown.style.display = 'none';
+            activeDropdown.previousElementSibling.setAttribute('aria-expanded', 'false');
+        }
+    }
+});
