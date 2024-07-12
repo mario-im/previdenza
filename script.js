@@ -40,6 +40,7 @@ function createMenuHTML(menuData) {
 function initMenuBehavior() {
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
     
+    // Gestisce l'apertura/chiusura dei dropdown su mobile
     dropdownToggles.forEach(toggle => {
         toggle.addEventListener('click', function(e) {
             if (window.innerWidth <= 768) {
@@ -50,11 +51,23 @@ function initMenuBehavior() {
         });
     });
 
-    // Gestisce i click sui link del menu mobile
-    document.querySelectorAll('#main-nav a:not(.dropdown-toggle)').forEach(link => {
-        link.addEventListener('click', function() {
+    // Gestione migliorata dei click sui link del menu mobile
+    document.querySelectorAll('#main-nav a').forEach(link => {
+        link.addEventListener('click', function(e) {
             if (window.innerWidth <= 768) {
-                document.getElementById('main-nav').classList.remove('active');
+                if (this.classList.contains('dropdown-toggle')) {
+                    // Se è un toggle di dropdown, previeni la navigazione
+                    e.preventDefault();
+                } else {
+                    // Se è un link normale o un link in un sottomenu, permetti la navigazione
+                    // e chiudi il menu mobile
+                    document.getElementById('main-nav').classList.remove('active');
+                    const menuToggle = document.querySelector('.menu-toggle');
+                    if (menuToggle) {
+                        menuToggle.innerHTML = '☰';
+                        menuToggle.setAttribute('aria-expanded', 'false');
+                    }
+                }
             }
         });
     });
@@ -115,15 +128,16 @@ function initMobileMenu() {
     menuToggle.classList.add('menu-toggle');
     menuToggle.innerHTML = '☰';
     menuToggle.setAttribute('aria-label', 'Toggle menu');
+    menuToggle.setAttribute('aria-expanded', 'false');
     
     const headerContent = document.querySelector('.header-content');
     headerContent.insertBefore(menuToggle, headerContent.firstChild);
 
     menuToggle.addEventListener('click', function() {
         const mainNav = document.getElementById('main-nav');
-        mainNav.classList.toggle('active');
-        this.setAttribute('aria-expanded', mainNav.classList.contains('active'));
-        this.innerHTML = mainNav.classList.contains('active') ? '✕' : '☰';
+        const isExpanded = mainNav.classList.toggle('active');
+        this.setAttribute('aria-expanded', isExpanded);
+        this.innerHTML = isExpanded ? '✕' : '☰';
     });
 }
 

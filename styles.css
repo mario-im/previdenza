@@ -207,11 +207,13 @@
   
     .dropdown-content.active {
       display: block;
+      position: static; /* Assicura che il sottomenu non si sovrapponga ad altri elementi */
     }
   
     .dropdown-content a {
       color: white;
       padding: 10px 20px;
+      display: block; /* Assicura che l'intero elemento sia cliccabile */
     }
   
     /* Adatta il padding dei box di contenuto su mobile */
