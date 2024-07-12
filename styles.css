@@ -1,4 +1,3 @@
-/* Definizione delle variabili CSS per i colori e le transizioni */
 :root {
     --primary-color: #003366;
     --secondary-color: #FF6600;
@@ -8,7 +7,6 @@
     --transition-speed: 0.3s;
   }
   
-  /* Stili di base per il body */
   body {
     font-family: 'Noto Sans JP', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
@@ -18,31 +16,52 @@
     color: var(--text-color);
   }
   
-  /* Stile per l'header che rimane fisso in cima alla pagina */
+  /* Header con trasformazione durante lo scroll */
   header {
-    background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
     transition: all var(--transition-speed);
+    padding: 20px 0;
   }
   
-  /* Stile per la navigazione */
-  nav {
+  header.scrolled {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  .header-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
   }
   
+  /* Stile per il titolo h1 */
+  .site-title {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    transition: all var(--transition-speed);
+  }
+  
+  header.scrolled .site-title {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+  }
+  
+  /* Stili di navigazione */
   nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: flex-end;
   }
   
   nav ul li {
@@ -51,10 +70,14 @@
   }
   
   nav ul li a {
-    color: var(--primary-color);
+    color: white;
     text-decoration: none;
     font-weight: 500;
     transition: color var(--transition-speed);
+  }
+  
+  header.scrolled nav ul li a {
+    color: var(--primary-color);
   }
   
   nav ul li a:hover {
@@ -86,18 +109,7 @@
   main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 80px 20px 20px; /* Aggiunto padding superiore per compensare l'header fisso */
-  }
-  
-  /* Stili per il titolo della pagina */
-  .page-title {
-    margin-bottom: 2rem;
-  }
-  
-  .page-title h1 {
-    font-size: 2.5rem;
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
+    padding: 120px 20px 20px; /* Aumentato il padding superiore */
   }
   
   /* Stili per i box di contenuto */
@@ -142,6 +154,16 @@
   
   /* Media query per dispositivi mobili */
   @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
     nav ul {
       flex-direction: column;
     }
@@ -160,8 +182,12 @@
       display: block;
     }
   
-    .page-title h1 {
-      font-size: 2rem;
+    .site-title {
+      font-size: 1.5rem;
+    }
+  
+    header.scrolled .site-title {
+      font-size: 1.2rem;
     }
   
     .content-box {

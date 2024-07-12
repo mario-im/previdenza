@@ -1,7 +1,7 @@
-// Attende che il DOM sia completamente caricato prima di eseguire le funzioni
 document.addEventListener('DOMContentLoaded', function() {
     loadMenu();
     loadContent();
+    initScrollBehavior();
 });
 
 // Funzione per caricare il menu da un file JSON
@@ -20,7 +20,6 @@ function loadMenu() {
 function createMenuHTML(menuData) {
     return `<ul>${menuData.map(item => {
         if (item.dropdown) {
-            // Crea un elemento di menu dropdown se sono presenti sottovoci
             return `
                 <li class="dropdown">
                     <a href="${item.link}">${item.text}</a>
@@ -30,7 +29,6 @@ function createMenuHTML(menuData) {
                 </li>
             `;
         } else {
-            // Crea un elemento di menu semplice se non ci sono sottovoci
             return `<li><a href="${item.link}">${item.text}</a></li>`;
         }
     }).join('')}</ul>`;
@@ -51,12 +49,10 @@ function initMobileMenu() {
 
 // Funzione per caricare il contenuto della pagina
 function loadContent() {
-    // Determina il nome della pagina corrente
     let pageName = window.location.pathname.split("/").pop().split(".")[0];
     if (pageName === '' || pageName === 'index') {
         pageName = 'previdenza-complementare';
     }
-    // Carica il JSON corrispondente alla pagina
     fetch(`${pageName}-content.json`)
         .then(response => response.json())
         .then(data => {
@@ -83,5 +79,19 @@ function initSortable() {
     new Sortable(document.getElementById('content'), {
         animation: 150,
         ghostClass: 'blue-background-class'
+    });
+}
+
+// Gestisce il comportamento dell'header durante lo scroll
+function initScrollBehavior() {
+    const header = document.querySelector('header');
+    const scrollThreshold = 100; // Soglia di scroll per attivare la trasformazione
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > scrollThreshold) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
     });
 }
