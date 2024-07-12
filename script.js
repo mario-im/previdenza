@@ -82,6 +82,10 @@ function createContentHTML(contentData) {
             }
         }
         
+        if (section.subsections) {
+            sectionHTML += createSubsectionsHTML(section.subsections);
+        }
+        
         if (section.cta) {
             sectionHTML += `<a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>`;
         }
