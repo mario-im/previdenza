@@ -196,6 +196,26 @@
       margin: 10px 0;
     }
   
+    /* Aumenta l'area cliccabile per i link del menu su mobile */
+    nav ul li a {
+      padding: 15px 0;
+      display: block;
+    }
+  
+    /* Stile per i toggle dei dropdown su mobile */
+    .dropdown-toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    /* Aggiunge una freccia per indicare i dropdown */
+    .dropdown-toggle::after {
+      content: '▼';
+      font-size: 0.7em;
+      margin-left: 5px;
+    }
+  
     /* Stili per i dropdown su mobile */
     .dropdown-content {
       position: static;
@@ -207,7 +227,6 @@
   
     .dropdown-content.active {
       display: block;
-      position: static; /* Assicura che il sottomenu non si sovrapponga ad altri elementi */
     }
   
     .dropdown-content a {
