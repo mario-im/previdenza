@@ -41,42 +41,11 @@ function initMenuBehavior() {
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
     
     dropdownToggles.forEach(toggle => {
-        let isOpen = false;
         toggle.addEventListener('click', function(e) {
             if (window.innerWidth <= 768) {
                 e.preventDefault();
                 const dropdownContent = this.nextElementSibling;
-                if (isOpen) {
-                    // Se il dropdown è già aperto, naviga alla pagina
-                    window.location.href = this.getAttribute('href');
-                } else {
-                    // Altrimenti, apri il dropdown
-                    dropdownContent.classList.add('active');
-                    isOpen = true;
-                }
-            }
-        });
-
-        // Chiudi il dropdown quando si clicca fuori
-        document.addEventListener('click', function(e) {
-            if (!toggle.contains(e.target) && window.innerWidth <= 768) {
-                const dropdownContent = toggle.nextElementSibling;
-                dropdownContent.classList.remove('active');
-                isOpen = false;
-            }
-        });
-    });
-
-    // Gestione dei click sui link del sottomenu
-    document.querySelectorAll('.dropdown-content a').forEach(link => {
-        link.addEventListener('click', function() {
-            if (window.innerWidth <= 768) {
-                document.getElementById('main-nav').classList.remove('active');
-                const menuToggle = document.querySelector('.menu-toggle');
-                if (menuToggle) {
-                    menuToggle.innerHTML = '☰';
-                    menuToggle.setAttribute('aria-expanded', 'false');
-                }
+                dropdownContent.classList.toggle('active');
             }
         });
     });
@@ -100,13 +69,48 @@ function loadContent() {
 
 // Funzione per creare l'HTML del contenuto basato sui dati JSON
 function createContentHTML(contentData) {
-    return contentData.sections.map(section => `
-        <div class="content-box" data-id="${section.id}">
-            <h2>${section.title}</h2>
-            <p>${section.text}</p>
-            <a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>
-        </div>
-    `).join('');
+    return contentData.sections.map(section => {
+        let sectionHTML = `<div class="content-box" id="${section.id}">`;
+        sectionHTML += `<h2>${section.title}</h2>`;
+        
+        if (section.text) {
+            // Gestisce liste puntate e numerate
+            if (section.text.includes('•') || section.text.includes('1.')) {
+                sectionHTML += `<div class="formatted-text">${formatText(section.text)}</div>`;
+            } else {
+                sectionHTML += `<p>${section.text}</p>`;
+            }
+        }
+        
+        if (section.cta) {
+            sectionHTML += `<a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>`;
+        }
+        
+        sectionHTML += '</div>';
+        return sectionHTML;
+    }).join('');
+}
+
+// Funzione per formattare il testo con liste puntate e numerate
+function formatText(text) {
+    // Converte le liste puntate
+    text = text.replace(/•\s(.*?)(?=(\n|$))/g, '<li>$1</li>');
+    if (text.includes('<li>')) {
+        text = '<ul>' + text + '</ul>';
+    }
+    
+    // Converte le liste numerate
+    text = text.replace(/(\d+)\.\s(.*?)(?=(\n|$))/g, '<li>$2</li>');
+    if (text.includes('<li>') && !text.includes('<ul>')) {
+        text = '<ol>' + text + '</ol>';
+    }
+    
+    // Gestisce i paragrafi e le note
+    text = text.replace(/\n\n/g, '</p><p>');
+    text = '<p>' + text + '</p>';
+    text = text.replace(/<p>\*(.*?)<\/p>/g, '<p class="note">*$1</p>');
+    
+    return text;
 }
 
 // Inizializza la funzionalità di riordino dei contenuti
@@ -137,16 +141,14 @@ function initMobileMenu() {
     menuToggle.classList.add('menu-toggle');
     menuToggle.innerHTML = '☰';
     menuToggle.setAttribute('aria-label', 'Toggle menu');
-    menuToggle.setAttribute('aria-expanded', 'false');
     
     const headerContent = document.querySelector('.header-content');
     headerContent.insertBefore(menuToggle, headerContent.firstChild);
 
     menuToggle.addEventListener('click', function() {
         const mainNav = document.getElementById('main-nav');
-        const isExpanded = mainNav.classList.toggle('active');
-        this.setAttribute('aria-expanded', isExpanded);
-        this.innerHTML = isExpanded ? '✕' : '☰';
+        mainNav.classList.toggle('active');
+        this.innerHTML = mainNav.classList.contains('active') ? '✕' : '☰';
     });
 }
 

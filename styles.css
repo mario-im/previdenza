@@ -1,7 +1,7 @@
 /* Definizione delle variabili CSS per una facile personalizzazione */
 :root {
-    --primary-color: #003c71;
-    --secondary-color: #c8102e;
+    --primary-color: #003366;
+    --secondary-color: #FF6600;
     --background-color: #F5F5F5;
     --text-color: #333333;
     --light-gray: #E0E0E0;
@@ -149,19 +149,50 @@
   
   .cta-button:hover,
   .cta-button:focus {
-    background-color: #cb4259;
+    background-color: #e55c00;
     transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(255, 0, 0, 0.349);
+    box-shadow: 0 6px 8px rgba(255, 102, 0, 0.3);
+  }
+  
+  /* Stili specifici per la pagina di adesione */
+  .content-box .formatted-text ul,
+  .content-box .formatted-text ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .content-box .formatted-text li {
+    margin-bottom: 10px;
+  }
+  
+  .content-box .note {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-left: 3px solid var(--secondary-color);
+  }
+  
+  #adempimenti-preliminari {
+    background-color: #fff3e0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #adempimenti-preliminari h2 {
+    color: var(--secondary-color);
   }
   
   /* Stili per il pulsante del menu mobile (nascosto di default) */
   .menu-toggle {
-      display: none;
-      background: none;
-      border: none;
-      font-size: 1.5rem;
-      color: white;
-      cursor: pointer;
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
   }
   
   /* Media query per dispositivi mobili */
@@ -202,20 +233,6 @@
       display: block;
     }
   
-    /* Stile per i toggle dei dropdown su mobile */
-    .dropdown-toggle {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    /* Aggiunge una freccia per indicare i dropdown */
-    .dropdown-toggle::after {
-      content: '▼';
-      font-size: 0.7em;
-      margin-left: 5px;
-    }
-  
     /* Stili per i dropdown su mobile */
     .dropdown-content {
       position: static;
@@ -232,7 +249,6 @@
     .dropdown-content a {
       color: white;
       padding: 10px 20px;
-      display: block; /* Assicura che l'intero elemento sia cliccabile */
     }
   
     /* Adatta il padding dei box di contenuto su mobile */
@@ -250,46 +266,3 @@
   .content-box {
     animation: fadeIn 0.5s ease-out forwards;
   }
-
-
-  .content-box ul {
-    list-style-type: none;
-    padding-left: 20px;
-}
-
-.content-box ul li:before {
-    content: "‣";
-    color: var(--secondary-color);
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-.content-box ol {
-    padding-left: 20px;
-}
-
-.content-box ol li {
-    margin-bottom: 10px;
-}
-
-.note {
-    font-size: 0.9em;
-    font-style: italic;
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-left: 3px solid var(--secondary-color);
-}
-
-.adempimenti {
-    background-color: #fff3e0;
-    padding: 15px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.adempimenti h2 {
-    color: var(--secondary-color);
-}
