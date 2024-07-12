@@ -71,7 +71,7 @@
                     "text": "ARCAclick offre una gestione semplificata del tuo fondo pensione online.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#arcaclick"
+                        "link": "https://www.arcafondi.it/Clienti/s/login/"
                     }
                 }
             ]
@@ -80,10 +80,7 @@
             "id": "perche-sceglierlo",
             "title": "Perché sceglierlo",
             "text": "Ci sono molte ragioni per scegliere i nostri fondi pensione.",
-            "cta": {
-                "text": "Scopri perché",
-                "link": "motivi.html"
-            },
+            
             "subsections": [
                 {
                     "id": "vantaggi-fiscali",
@@ -91,7 +88,16 @@
                     "text": "I nostri fondi pensione offrono significativi vantaggi fiscali.",
                     "cta": {
                         "text": "Scopri di più",
-                        "link": "#vantaggi-fiscali"
+                        "link": "vantaggi-fiscali.html"
+                    }
+                },
+                {
+                    "id": "altro",
+                    "title": "altro",
+                    "text": "I nostri fondi pensione offrono sono...",
+                    "cta": {
+                        "text": "Scopri di più",
+                        "link": "#altro"
                     }
                 }
             ]

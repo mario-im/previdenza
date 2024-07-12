@@ -6,26 +6,18 @@
             "text": "La pensione integrativa è diventata sempre più importante per garantire un futuro finanziario stabile. Con l'aumento dell'aspettativa di vita e la diminuzione delle prestazioni pensionistiche pubbliche, integrare la pensione di base è fondamentale per mantenere il proprio tenore di vita dopo il pensionamento.",
             "cta": {
                 "text": "Scopri i vantaggi",
-                "link": "#vantaggi-pensione-integrativa"
+                "link": "vantaggi"
             }
         },
         {
             "id": "cosa-previdenza-complementare",
             "title": "Che cos'è la previdenza complementare?",
-            "text": "La previdenza complementare è una forma di risparmio che si affianca alla pensione pubblica. Si tratta di un sistema di accumulo di capitale che, attraverso versamenti periodici e una gestione professionale, mira a costruire una rendita aggiuntiva per il periodo di pensionamento.",
-            "cta": {
-                "text": "Approfondisci",
-                "link": "#approfondimento-previdenza-complementare"
-            }
+            "text": "La previdenza complementare è una forma di risparmio che si affianca alla pensione pubblica. Si tratta di un sistema di accumulo di capitale che, attraverso versamenti periodici e una gestione professionale, mira a costruire una rendita aggiuntiva per il periodo di pensionamento."
         },
         {
             "id": "obiettivo-previdenza-complementare",
             "title": "Qual è l'obiettivo della previdenza complementare?",
-            "text": "L'obiettivo principale della previdenza complementare è quello di integrare la pensione pubblica, garantendo un reddito aggiuntivo durante il periodo di pensionamento. Questo permette di mantenere un tenore di vita adeguato e di affrontare con maggiore serenità le esigenze economiche della terza età.",
-            "cta": {
-                "text": "Scopri gli obiettivi",
-                "link": "#obiettivi-dettagliati"
-            }
+            "text": "L'obiettivo principale della previdenza complementare è quello di integrare la pensione pubblica, garantendo un reddito aggiuntivo durante il periodo di pensionamento. Questo permette di mantenere un tenore di vita adeguato e di affrontare con maggiore serenità le esigenze economiche della terza età."
         },
         {
             "id": "sei-iscritto",
@@ -33,7 +25,7 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
             "cta": {
                 "text": "Iscriviti ora",
-                "link": "#form-iscrizione"
+                "link": "https://mao.arcaonline.it/"
             }
         },
         {
@@ -41,8 +33,8 @@
             "title": "Schede prodotto",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
             "cta": {
-                "text": "Visualizza le schede",
-                "link": "#elenco-schede-prodotto"
+                "text": "Visualizza la schede",
+                "link": "nostri-fondi-pensione.html"
             }
         },
         {
@@ -51,7 +43,7 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
             "cta": {
                 "text": "Aderisci ora",
-                "link": "#adesione-online"
+                "link": "https://mao.arcaonline.it/"
             }
         }
     ]
