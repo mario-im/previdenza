@@ -1,7 +1,9 @@
+// Attende che il DOM sia completamente caricato prima di eseguire le funzioni
 document.addEventListener('DOMContentLoaded', function() {
     loadMenu();
     loadContent();
     initScrollBehavior();
+    initMobileMenu();
 });
 
 // Funzione per caricare il menu da un file JSON
@@ -11,7 +13,6 @@ function loadMenu() {
         .then(data => {
             const nav = document.getElementById('main-nav');
             nav.innerHTML = createMenuHTML(data);
-            initMobileMenu();
         })
         .catch(error => console.error('Errore nel caricamento del menu:', error));
 }
@@ -20,6 +21,7 @@ function loadMenu() {
 function createMenuHTML(menuData) {
     return `<ul>${menuData.map(item => {
         if (item.dropdown) {
+            // Crea un elemento di menu dropdown se sono presenti sottovoci
             return `
                 <li class="dropdown">
                     <a href="${item.link}">${item.text}</a>
@@ -29,22 +31,10 @@ function createMenuHTML(menuData) {
                 </li>
             `;
         } else {
+            // Crea un elemento di menu semplice se non ci sono sottovoci
             return `<li><a href="${item.link}">${item.text}</a></li>`;
         }
     }).join('')}</ul>`;
-}
-
-// Inizializza il comportamento del menu per dispositivi mobili
-function initMobileMenu() {
-    const dropdowns = document.querySelectorAll('.dropdown');
-    dropdowns.forEach(dropdown => {
-        dropdown.addEventListener('click', function(e) {
-            if (window.innerWidth <= 768) {
-                e.preventDefault();
-                this.classList.toggle('active');
-            }
-        });
-    });
 }
 
 // Funzione per caricare il contenuto della pagina
@@ -92,6 +82,32 @@ function initScrollBehavior() {
             header.classList.add('scrolled');
         } else {
             header.classList.remove('scrolled');
+        }
+    });
+}
+
+// Inizializza il menu mobile
+function initMobileMenu() {
+    const menuToggle = document.createElement('button');
+    menuToggle.classList.add('menu-toggle');
+    menuToggle.innerHTML = '☰';
+    menuToggle.setAttribute('aria-label', 'Toggle menu');
+    
+    const headerContent = document.querySelector('.header-content');
+    headerContent.insertBefore(menuToggle, headerContent.firstChild);
+
+    menuToggle.addEventListener('click', function() {
+        const mainNav = document.getElementById('main-nav');
+        mainNav.classList.toggle('active');
+        this.innerHTML = mainNav.classList.contains('active') ? '✕' : '☰';
+    });
+
+    // Gestione dei dropdown nel menu mobile
+    document.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768 && e.target.closest('.dropdown')) {
+            e.preventDefault();
+            const dropdown = e.target.closest('.dropdown');
+            dropdown.classList.toggle('active');
         }
     });
 }

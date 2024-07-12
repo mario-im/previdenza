@@ -1,3 +1,4 @@
+/* Definizione delle variabili CSS per i colori e le transizioni */
 :root {
     --primary-color: #003366;
     --secondary-color: #FF6600;
@@ -7,6 +8,7 @@
     --transition-speed: 0.3s;
   }
   
+  /* Stili di base per il body */
   body {
     font-family: 'Noto Sans JP', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
@@ -16,7 +18,7 @@
     color: var(--text-color);
   }
   
-  /* Header con trasformazione durante lo scroll */
+  /* Stile per l'header che rimane fisso in cima alla pagina */
   header {
     background-color: var(--primary-color);
     position: fixed;
@@ -28,12 +30,14 @@
     padding: 20px 0;
   }
   
+  /* Stile per l'header quando la pagina è scrollata */
   header.scrolled {
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
   }
   
+  /* Contenuto dell'header */
   .header-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -43,7 +47,7 @@
     padding: 0 20px;
   }
   
-  /* Stile per il titolo h1 */
+  /* Stile per il titolo del sito */
   .site-title {
     color: white;
     font-size: 2rem;
@@ -51,6 +55,7 @@
     transition: all var(--transition-speed);
   }
   
+  /* Stile per il titolo del sito quando la pagina è scrollata */
   header.scrolled .site-title {
     font-size: 1.5rem;
     color: var(--primary-color);
@@ -109,7 +114,7 @@
   main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 120px 20px 20px; /* Aumentato il padding superiore */
+    padding: 120px 20px 20px; /* Aumentato il padding superiore per compensare l'header fisso */
   }
   
   /* Stili per i box di contenuto */
@@ -152,49 +157,6 @@
     background-color: var(--secondary-color);
   }
   
-  /* Media query per dispositivi mobili */
-  @media (max-width: 768px) {
-    .header-content {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    nav {
-      width: 100%;
-      margin-top: 1rem;
-    }
-  
-    nav ul {
-      flex-direction: column;
-    }
-  
-    nav ul li {
-      margin: 0.5rem 0;
-    }
-  
-    .dropdown-content {
-      position: static;
-      box-shadow: none;
-      display: none;
-    }
-  
-    .dropdown.active .dropdown-content {
-      display: block;
-    }
-  
-    .site-title {
-      font-size: 1.5rem;
-    }
-  
-    header.scrolled .site-title {
-      font-size: 1.2rem;
-    }
-  
-    .content-box {
-      padding: 1.5rem;
-    }
-  }
-  
   /* Animazione per il fade-in dei contenuti */
   @keyframes fadeIn {
     from { opacity: 0; }
@@ -203,4 +165,83 @@
   
   .content-box {
     animation: fadeIn 0.5s ease-out;
+  }
+  
+  /* Media query per dispositivi mobili */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .site-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+  
+    /* Stile per il pulsante del menu hamburger */
+    .menu-toggle {
+      display: block;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      color: white;
+      cursor: pointer;
+    }
+  
+    header.scrolled .menu-toggle {
+      color: var(--primary-color);
+    }
+  
+    /* Nascondi il menu principale di default su mobile */
+    #main-nav {
+      display: none;
+      width: 100%;
+    }
+  
+    /* Stile per il menu aperto */
+    #main-nav.active {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    nav ul {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    nav ul li {
+      margin: 0;
+      border-bottom: 1px solid var(--light-gray);
+    }
+  
+    nav ul li a {
+      display: block;
+      padding: 15px;
+      color: var(--primary-color);
+    }
+  
+    .dropdown-content {
+      position: static;
+      display: none;
+      background-color: var(--light-gray);
+      box-shadow: none;
+    }
+  
+    .dropdown.active .dropdown-content {
+      display: block;
+    }
+  
+    .dropdown-content a {
+      padding-left: 30px;
+    }
+  
+    .content-box {
+      padding: 1.5rem;
+    }
   }
