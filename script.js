@@ -41,16 +41,46 @@ function initMenuBehavior() {
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
     
     dropdownToggles.forEach(toggle => {
+        let isOpen = false;
         toggle.addEventListener('click', function(e) {
             if (window.innerWidth <= 768) {
                 e.preventDefault();
                 const dropdownContent = this.nextElementSibling;
-                dropdownContent.classList.toggle('active');
+                if (isOpen) {
+                    // Se il dropdown è già aperto, naviga alla pagina
+                    window.location.href = this.getAttribute('href');
+                } else {
+                    // Altrimenti, apri il dropdown
+                    dropdownContent.classList.add('active');
+                    isOpen = true;
+                }
+            }
+        });
+
+        // Chiudi il dropdown quando si clicca fuori
+        document.addEventListener('click', function(e) {
+            if (!toggle.contains(e.target) && window.innerWidth <= 768) {
+                const dropdownContent = toggle.nextElementSibling;
+                dropdownContent.classList.remove('active');
+                isOpen = false;
+            }
+        });
+    });
+
+    // Gestione dei click sui link del sottomenu
+    document.querySelectorAll('.dropdown-content a').forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                document.getElementById('main-nav').classList.remove('active');
+                const menuToggle = document.querySelector('.menu-toggle');
+                if (menuToggle) {
+                    menuToggle.innerHTML = '☰';
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
             }
         });
     });
 }
-
 // Funzione per caricare il contenuto della pagina
 function loadContent() {
     let pageName = window.location.pathname.split("/").pop().split(".")[0];
