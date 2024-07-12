@@ -1,0 +1,49 @@
+{
+    "sections": [
+        {
+            "id": "introduzione",
+            "title": "Aderisci online al Fondo Pensione Aperto Arca Previdenza",
+            "text": "Il fondo leader in Italia da 25 anni.",
+            "cta": {
+                "text": "Inizia l'adesione",
+                "link": "#processo-adesione"
+            }
+        },
+        {
+            "id": "tipologie-adesione",
+            "title": "Tipologie di adesione",
+            "list": [
+                "Individuale senza conferimento del TFR",
+                "Individuale con conferimento del TFR",
+                "Collettivo"
+            ]
+        },
+        {
+            "id": "documenti-necessari",
+            "title": "Documenti necessari",
+            "text": "Prima di iniziare il processo di adesione è necessario assicurarsi di avere con sé:",
+            "list": [
+                "Tieni a portata di mano le tue credenziali SPID/CIE",
+                "Uno smartphone, un tablet o PC"
+            ]
+        },
+        {
+            "id": "processo-adesione",
+            "title": "Come completare l'adesione:",
+            "steps": [
+                "Nel corso del processo di adesione, ti sarà chiesto di completare l'iscrizione al tuo profilo personale \"ArcaClick\"*, se non sei già utente del servizio",
+                "Appena completato il processo di adesione online riceverai una mail di conferma contenente il modulo di adesione al Fondo Pensione Arca Previdenza firmato elettronicamente. Potrai poi monitorare lo stato di avanzamento della tua adesione direttamente accedendo ad ArcaClick"
+            ],
+            "note": "*ArcaClick è il servizio gratuito di posizione personale online dedicato ai clienti di Arca Fondi e Arca Previdenza. Dal tuo profilo personale avrai a disposizione l'archivio di tutte le comunicazioni e la documentazione ricevuta dal Fondo, potrai consultare la tua posizione ed effettuare direttamente online dei Versamenti Aggiuntivi"
+        },
+        {
+            "id": "adempimenti-preliminari",
+            "title": "Adempimenti preliminari",
+            "text": "Attenzione: procedendo con l'adesione Online ad \"Arca Previdenza Fondo Pensione Aperto\" dichiari di aver preso visione della Parte I \"Informazioni chiave per l'aderente\" della Nota Informativa e dell'Appendice \"Informativa sulla Sostenibilità\". La Nota Informativa e il Regolamento sono disponibili sul sito www.arcafondi.it",
+            "cta": {
+                "text": "Visualizza documenti",
+                "link": "https://www.arcafondi.it/documenti"
+            }
+        }
+    ]
+}
