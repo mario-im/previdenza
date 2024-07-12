@@ -1,3 +1,4 @@
+/* Definizione delle variabili CSS per una facile personalizzazione */
 :root {
     --primary-color: #003366;
     --secondary-color: #FF6600;
@@ -7,6 +8,7 @@
     --transition-speed: 0.3s;
   }
   
+  /* Stili di base per il body */
   body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
@@ -16,6 +18,7 @@
     color: var(--text-color);
   }
   
+  /* Stile per l'header */
   header {
     background-color: var(--primary-color);
     position: fixed;
@@ -27,6 +30,7 @@
     padding: 15px 0;
   }
   
+  /* Contenuto dell'header */
   .header-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -36,6 +40,7 @@
     padding: 0 20px;
   }
   
+  /* Stile per il titolo del sito */
   .site-title {
     color: white;
     font-size: 1.5rem;
@@ -44,6 +49,7 @@
     transition: all var(--transition-speed);
   }
   
+  /* Stili di navigazione */
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -69,6 +75,7 @@
     color: var(--secondary-color);
   }
   
+  /* Stili per il menu dropdown */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -95,12 +102,14 @@
     display: block;
   }
   
+  /* Stili per il contenuto principale */
   main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 20px 20px;
   }
   
+  /* Stili per i box di contenuto */
   .content-box {
     background-color: white;
     border-radius: 8px;
@@ -124,6 +133,7 @@
     padding-bottom: 0.5rem;
   }
   
+  /* Stili per i pulsanti CTA */
   .cta-button {
     display: inline-block;
     background-color: var(--secondary-color);
@@ -144,16 +154,24 @@
     box-shadow: 0 6px 8px rgba(255, 102, 0, 0.3);
   }
   
-  @media (max-width: 768px) {
-    .menu-toggle {
-      display: block;
+  /* Stili per il pulsante del menu mobile (nascosto di default) */
+  .menu-toggle {
+      display: none;
       background: none;
       border: none;
       font-size: 1.5rem;
       color: white;
       cursor: pointer;
+  }
+  
+  /* Media query per dispositivi mobili */
+  @media (max-width: 768px) {
+    /* Mostra il pulsante del menu su mobile */
+    .menu-toggle {
+      display: block;
     }
   
+    /* Nascondi il menu principale su mobile */
     #main-nav {
       display: none;
       position: absolute;
@@ -164,10 +182,12 @@
       padding: 20px;
     }
   
+    /* Mostra il menu quando è attivo */
     #main-nav.active {
       display: block;
     }
   
+    /* Disposizione verticale per il menu su mobile */
     nav ul {
       flex-direction: column;
     }
@@ -176,22 +196,31 @@
       margin: 10px 0;
     }
   
+    /* Stili per i dropdown su mobile */
     .dropdown-content {
       position: static;
       background-color: rgba(255, 255, 255, 0.1);
       box-shadow: none;
       margin-top: 10px;
+      display: none;
+    }
+  
+    .dropdown-content.active {
+      display: block;
     }
   
     .dropdown-content a {
       color: white;
+      padding: 10px 20px;
     }
   
+    /* Adatta il padding dei box di contenuto su mobile */
     .content-box {
       padding: 1.5rem;
     }
   }
   
+  /* Animazione per il fade-in dei contenuti */
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }

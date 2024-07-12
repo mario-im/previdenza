@@ -1,3 +1,4 @@
+// Attende che il DOM sia completamente caricato prima di eseguire le funzioni
 document.addEventListener('DOMContentLoaded', function() {
     loadMenu();
     loadContent();
@@ -5,23 +6,25 @@ document.addEventListener('DOMContentLoaded', function() {
     initMobileMenu();
 });
 
+// Funzione per caricare il menu da un file JSON
 function loadMenu() {
     fetch('menu.json')
         .then(response => response.json())
         .then(data => {
             const nav = document.getElementById('main-nav');
             nav.innerHTML = createMenuHTML(data);
-            initDropdownAccessibility();
+            initMenuBehavior();
         })
         .catch(error => console.error('Errore nel caricamento del menu:', error));
 }
 
+// Funzione per creare l'HTML del menu basato sui dati JSON
 function createMenuHTML(menuData) {
     return `<ul>${menuData.map(item => {
         if (item.dropdown) {
             return `
                 <li class="dropdown">
-                    <a href="${item.link}" aria-haspopup="true" aria-expanded="false">${item.text}</a>
+                    <a href="${item.link}" class="dropdown-toggle">${item.text}</a>
                     <div class="dropdown-content">
                         ${item.dropdown.map(subItem => `<a href="${subItem.link}">${subItem.text}</a>`).join('')}
                     </div>
@@ -33,19 +36,31 @@ function createMenuHTML(menuData) {
     }).join('')}</ul>`;
 }
 
-function initDropdownAccessibility() {
-    const dropdowns = document.querySelectorAll('.dropdown > a');
-    dropdowns.forEach(dropdown => {
-        dropdown.addEventListener('click', function(e) {
+// Inizializza il comportamento del menu, gestendo dropdown e click su mobile
+function initMenuBehavior() {
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    
+    dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', function(e) {
             if (window.innerWidth <= 768) {
                 e.preventDefault();
-                this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
-                this.nextElementSibling.style.display = this.getAttribute('aria-expanded') === 'true' ? 'block' : 'none';
+                const dropdownContent = this.nextElementSibling;
+                dropdownContent.classList.toggle('active');
+            }
+        });
+    });
+
+    // Gestisce i click sui link del menu mobile
+    document.querySelectorAll('#main-nav a:not(.dropdown-toggle)').forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                document.getElementById('main-nav').classList.remove('active');
             }
         });
     });
 }
 
+// Funzione per caricare il contenuto della pagina
 function loadContent() {
     let pageName = window.location.pathname.split("/").pop().split(".")[0];
     if (pageName === '' || pageName === 'index') {
@@ -61,6 +76,7 @@ function loadContent() {
         .catch(error => console.error('Errore nel caricamento dei contenuti:', error));
 }
 
+// Funzione per creare l'HTML del contenuto basato sui dati JSON
 function createContentHTML(contentData) {
     return contentData.sections.map(section => `
         <div class="content-box" data-id="${section.id}">
@@ -71,6 +87,7 @@ function createContentHTML(contentData) {
     `).join('');
 }
 
+// Inizializza la funzionalità di riordino dei contenuti
 function initSortable() {
     new Sortable(document.getElementById('content'), {
         animation: 150,
@@ -78,6 +95,7 @@ function initSortable() {
     });
 }
 
+// Gestisce il comportamento dell'header durante lo scroll
 function initScrollBehavior() {
     const header = document.querySelector('header');
     const scrollThreshold = 50;
@@ -91,6 +109,7 @@ function initScrollBehavior() {
     });
 }
 
+// Inizializza il menu mobile
 function initMobileMenu() {
     const menuToggle = document.createElement('button');
     menuToggle.classList.add('menu-toggle');
@@ -111,10 +130,9 @@ function initMobileMenu() {
 // Gestione focus per accessibilità da tastiera
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
-        const activeDropdown = document.querySelector('.dropdown-content[style="display: block;"]');
+        const activeDropdown = document.querySelector('.dropdown-content.active');
         if (activeDropdown) {
-            activeDropdown.style.display = 'none';
-            activeDropdown.previousElementSibling.setAttribute('aria-expanded', 'false');
+            activeDropdown.classList.remove('active');
         }
     }
 });
