@@ -92,7 +92,6 @@ function createContentHTML(contentData) {
 }
 
 // Funzione per creare una subsection con titolo e testo
-
 function createSubsectionsHTML(subsections) {
     return subsections.map(subsection => `
         <div class="subsection">
