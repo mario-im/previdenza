@@ -97,8 +97,8 @@ function createSubsectionsHTML(subsections) {
     return subsections.map(subsection => `
         <div class="subsection">
             <h3>${subsection.title}</h3>
-            <p>${subsection.text}</p>
-            <a href="${subsection.cta.link}" class="cta-button">${subsection.cta.text}</a>
+            ${subsection.text ? `<p>${subsection.text}</p>` : ''}
+            ${subsection.cta ? `<a href="${subsection.cta.link}" class="cta-button">${subsection.cta.text}</a>` : ''}
         </div>
     `).join('');
 }
