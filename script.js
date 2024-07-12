@@ -91,6 +91,18 @@ function createContentHTML(contentData) {
     }).join('');
 }
 
+// Funzione per creare una subsection con titolo e testo
+
+function createSubsectionsHTML(subsections) {
+    return subsections.map(subsection => `
+        <div class="subsection">
+            <h3>${subsection.title}</h3>
+            <p>${subsection.text}</p>
+            <a href="${subsection.cta.link}" class="cta-button">${subsection.cta.text}</a>
+        </div>
+    `).join('');
+}
+
 // Funzione per formattare il testo con liste puntate e numerate
 function formatText(text) {
     // Converte le liste puntate
