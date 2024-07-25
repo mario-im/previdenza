@@ -64,6 +64,15 @@
             "id": "adempimenti-preliminari",
             "title": "Adempimenti preliminari",
             "text": "Attenzione: procedendo con l'adesione Online ad \"Arca Previdenza Fondo Pensione Aperto\" dichiari di aver preso visione della Parte I \"Informazioni chiave per l'aderente\" della Nota Informativa e dell'Appendice \"Informativa sulla Sostenibilità\". La Nota Informativa e il Regolamento sono disponibili sul sito www.arcafondi.it"
+        },
+        {
+            "id": "cta-adesione",
+            "title": "ARCA Previdenza",
+            "text": "Facile, comodo e vantaggioso\nPuoi aderire rapidamente ad Arca Previdenza in tutta sicurezza. Ti bastano pochi click.",
+            "cta": {
+                "text": "Aderisci online",
+                "link": "https://mao.arcaonline.it/"
+             }
         }
     ]
 }
