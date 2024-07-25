@@ -2,28 +2,68 @@
     "sections": [
         {
             "id": "introduzione",
-            "title": "Vantaggi",
-            "text": "Benvenuti nella pagina dedicata a Vantaggi. Qui troverai informazioni dettagliate sui nostri prodotti dedicati al fondo pensione"
+            "title": "I vantaggi della previdenza integrativa",
+            "text": "La previdenza integrativa offre numerosi benefici, sia per il presente che per il futuro. Ecco i principali vantaggi che puoi ottenere aderendo a un fondo pensione complementare."
         },
         {
-            "id": "caratteristiche",
-            "title": "Caratteristiche principali",
-            "text": "Le caratteristiche principali di Vantaggi includono:\n• Diversificazione degli investimenti\n• Gestione professionale\n• Flessibilità nei versamenti"
+            "id": "rendita-pensionistica",
+            "title": "1. Rendita pensionistica aggiuntiva",
+            "text": "Il primo e più importante beneficio è la possibilità di ottenere una rendita o un capitale che ti accompagnerà durante gli anni della pensione. Questo ti protegge dal rischio di esaurire i risparmi accumulati o di non riuscire a mantenere il tuo stile di vita attuale, integrando l'assegno pensionistico pubblico."
         },
         {
-            "id": "vantaggi",
-            "title": "Vantaggi",
-            "text": "Aderire a Vantaggi offre numerosi vantaggi:\n1. Benefici fiscali\n2. Potenziale di rendimento a lungo termine\n3. Protezione del capitale"
+            "id": "vantaggio-tempo",
+            "title": "2. Il vantaggio del tempo",
+            "text": "Prima si inizia a versare in una forma di previdenza complementare, maggiore sarà la pensione complementare che si potrà ottenere. Il tempo è il tuo principale alleato gratuito: non è mai né troppo presto né troppo tardi per iniziare a pianificare il tuo futuro."
+        },
+        {
+            "id": "vantaggi-fiscali",
+            "title": "3. Vantaggi fiscali immediati e futuri",
+            "text": "I versamenti volontari sono deducibili fino a 5.164,57 euro all'anno (ad eccezione del TFR), con un risparmio annuo fino al 43% in base al proprio reddito. Le rivalutazioni future saranno tassate al 20% (12,5% per la quota relativa ai titoli di Stato) invece che al 26%. Alla prestazione finale sarà applicata una ritenuta fiscale compresa tra il 15% e il 9%, più vantaggiosa rispetto all'aliquota ordinaria."
+        },
+        {
+            "id": "vantaggi-lavoratori",
+            "title": "4. Vantaggi per i lavoratori dipendenti",
+            "text": "Per i lavoratori dipendenti, il TFR può essere versato dal datore di lavoro in una forma pensionistica senza dover fisicamente attingere ai propri risparmi. Inoltre, il finanziamento delle forme pensionistiche complementari è in parte anche a carico del proprio datore di lavoro."
+        },
+        {
+            "id": "flessibilita",
+            "title": "5. Flessibilità e sicurezza",
+            "text": "Le forme di previdenza integrativa offrono numerose opzioni di flessibilità, sia per poter anticipare parte di quanto versato, sia per destinarlo ai propri eredi in caso di premorienza. È possibile richiedere anticipazioni per l'acquisto o la ristrutturazione della prima casa, per spese sanitarie specifiche o per ulteriori bisogni dopo 8 anni di iscrizione."
+        },
+        {
+            "id": "accessibilita",
+            "title": "6. Accessibilità per tutti",
+            "text": "Chiunque può aderire alla pensione complementare: lavoratori dipendenti, autonomi e liberi professionisti. Esistono forme pensionistiche complementari adatte a tutte le esigenze e le tasche, con la possibilità di versare anche piccole somme regolarmente."
+        },
+        {
+            "id": "conclusione",
+            "title": "Costruisci il tuo futuro oggi",
+            "text": "La pensione integrativa è uno dei mattoncini fondamentali per costruire un domani più sereno. In un mondo che cambia rapidamente, offre un aiuto concreto per migliorare il tuo benessere quando avrai 65, 70 anni o più. Non aspettare: inizia oggi a pianificare il tuo futuro finanziario."
         },
         {
             "id": "come-aderire",
-            "title": "Come aderire",
-            "text": "Aderire a Vantaggi è semplice. Segui questi passi:\n1. Consulta la documentazione\n2. Compila il modulo di adesione\n3. Scegli la tua strategia di investimento\n4. Inizia a versare i contributi"
+            "title": "Come aderire al Fondo Pensione",
+            "text": "Aderisci online al Fondo Pensione Aperto Arca Previdenza, il fondo leader in Italia da 25 anni."
         },
         {
-            "id": "performance",
-            "title": "Performance",
-            "text": "Le performance passate non sono indicative di quelle future. Tuttavia, Vantaggi ha dimostrato una solida storia di rendimenti. Consulta i nostri report per informazioni dettagliate."
+            "id": "tipologie-adesione",
+            "title": "Tipologie di adesione",
+            "text": "• Individuale senza conferimento del TFR\n• Individuale con conferimento del TFR\n• Collettivo"
+        },
+        {
+            "id": "documenti-necessari",
+            "title": "Documenti necessari",
+            "text": "Prima di iniziare il processo di adesione è necessario assicurarsi di avere con sé:\n• Le tue credenziali SPID/CIE\n• Uno smartphone, un tablet o PC"
+        },
+        {
+            "id": "processo-adesione",
+            "title": "Come completare l'adesione",
+            "text": "1. Nel corso del processo di adesione, ti sarà chiesto di completare l'iscrizione al tuo profilo personale \"ArcaClick\"*, se non sei già utente del servizio\n2. Appena completato il processo di adesione online riceverai una mail di conferma contenente il modulo di adesione al Fondo Pensione Arca Previdenza firmato elettronicamente. Potrai poi monitorare lo stato di avanzamento della tua adesione direttamente accedendo ad ArcaClick\n\n*ArcaClick è il servizio gratuito di posizione personale online dedicato ai clienti di Arca Fondi e Arca Previdenza. Dal tuo profilo personale avrai a disposizione l'archivio di tutte le comunicazioni e la documentazione ricevuta dal Fondo, potrai consultare la tua posizione ed effettuare direttamente online dei Versamenti Aggiuntivi"
+        },
+        {
+            "id": "adempimenti-preliminari",
+            "title": "Adempimenti preliminari",
+            "text": "Attenzione: procedendo con l'adesione Online ad \"Arca Previdenza Fondo Pensione Aperto\" dichiari di aver preso visione della Parte I \"Informazioni chiave per l'aderente\" della Nota Informativa e dell'Appendice \"Informativa sulla Sostenibilità\". La Nota Informativa e il Regolamento sono disponibili sul sito www.arcafondi.it"
         }
     ]
 }
