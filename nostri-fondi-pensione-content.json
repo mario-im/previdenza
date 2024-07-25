@@ -59,7 +59,7 @@
                 {
                     "id": "lifecycle",
                     "title": "LifeCycle",
-                    "text": "Il LifeCycle adatta automaticamente l'investimento al tuo orizzonte temporale.",
+                    "text": "Nella scelta del comparto occorre considerare il numero di anni che mancano alla pensione e la propria propensione al rischio: i comparti con maggior grado di rischio sono più adatti ai giovani, mentre quelli più prudenti sono consigliati a chi si sta avvicinando all’età pensionabile.<br>Il programma Life Cycle è la soluzione ideale: un piano di riallocazione automatica della posizione previdenziale da comparti con profilo di rischio più elevato a comparti progressivamente meno rischiosi in funzione dell’età anagrafica. Il LifeCycle adatta automaticamente l'investimento al tuo orizzonte temporale.",
                     "cta": {
                         "text": "Scopri di più",
                         "link": "#lifecycle"
@@ -68,9 +68,9 @@
                 {
                     "id": "arcaclick",
                     "title": "ARCAclick",
-                    "text": "ARCAclick offre una gestione semplificata del tuo fondo pensione online.",
+                    "text": "Vuoi monitorare il tuo fondo Arca Previdenza in modo semplice e intuitivo?<br>Con ARCAclick visualizzi e gestisci il tuo fondo pensione Arca Previdenza in tutta comodità.<br><br>ARCAclick è un servizio gratuito dedicato ai clienti possessori di un prodotto Arca Fondi SGR, che ti permette di:<br>- analizzare lo storico del patrimonio, dei rendimenti, dei movimenti<br>- consultare le tue pratiche e l'archivio dei tuoi documenti<br>- gestire il tuo profilo utente e le tue preferenze<br>- disporre operazioni amministrative sul Fondo Pensione<br><br>ARCAclick offre una gestione semplificata del tuo fondo pensione online.",
                     "cta": {
-                        "text": "Scopri di più",
+                        "text": "Accedi subuto",
                         "link": "https://www.arcafondi.it/Clienti/s/login/"
                     }
                 }
