@@ -22,7 +22,7 @@
         {
             "id": "sei-iscritto",
             "title": "E tu? Sei già iscritto?",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
+            "text": "Non aspettare oltre per assicurarti un futuro finanziario più sereno. Iscriversi a un fondo pensione complementare è un passo importante verso la sicurezza economica in pensione. Ricorda, prima inizi a versare, maggiori saranno i benefici nel lungo termine. Inoltre, potrai godere di vantaggi fiscali immediati sui tuoi versamenti. Non lasciare che il tempo passi senza agire: il tuo futuro inizia oggi!",
             "cta": {
                 "text": "Iscriviti ora",
                 "link": "https://mao.arcaonline.it/"
@@ -31,20 +31,35 @@
         {
             "id": "schede-prodotto",
             "title": "Schede prodotto",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
+            "text": "Esplora le nostre soluzioni di previdenza complementare. Abbiamo opzioni adatte a ogni esigenza e profilo di rischio. Dalle nostre schede prodotto potrai ottenere informazioni dettagliate su ogni fondo, comprenderne le caratteristiche e scegliere quello più adatto alle tue esigenze.",
             "cta": {
-                "text": "Visualizza la schede",
+                "text": "Visualizza le schede",
                 "link": "nostri-fondi-pensione.html"
             }
         },
         {
             "id": "aderisci-online",
             "title": "Aderisci online",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.",
+            "text": "Aderire al nostro fondo pensione è facile, veloce e sicuro. Con pochi click puoi iniziare il tuo percorso verso una pensione più solida. La nostra piattaforma online ti guiderà passo dopo passo nel processo di adesione, permettendoti di completare l'iscrizione comodamente da casa. Non rimandare a domani la tua sicurezza finanziaria: inizia oggi stesso!",
             "cta": {
                 "text": "Aderisci ora",
                 "link": "https://mao.arcaonline.it/"
             }
+        },
+        {
+            "id": "siti-consigliati",
+            "title": "I siti che ti consigliamo",
+            "text": "Per approfondire la tua conoscenza sulla previdenza e prendere decisioni informate, ti consigliamo di visitare questi siti ufficiali:\n\n• Pensami - INPS: Un simulatore capace di rispondere alle domande più comuni riguardo al tuo futuro pensionistico.\n• COVIP - Autorità di vigilanza sui Fondi Pensione: Offre risorse preziose per l'educazione previdenziale.",
+            "cta": [
+                {
+                    "text": "Visita Pensami - INPS",
+                    "link": "https://serviziweb2.inps.it/AS0207/SimScePen2/#top"
+                },
+                {
+                    "text": "Esplora COVIP",
+                    "link": "https://www.covip.it/per-il-cittadino/educazione-previdenziale"
+                }
+            ]
         }
     ]
 }
