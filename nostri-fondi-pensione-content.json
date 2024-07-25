@@ -78,29 +78,81 @@
         },
         {
             "id": "perche-sceglierlo",
-            "title": "Perché sceglierlo",
-            "text": "Ci sono molte ragioni per scegliere i nostri fondi pensione.",
-            
+            "title": "Perché scegliere i nostri fondi pensione",
+            "text": "I fondi pensione Arca offrono numerosi vantaggi che li rendono una scelta eccellente per la tua previdenza complementare:",
             "subsections": [
                 {
-                    "id": "vantaggi-fiscali",
-                    "title": "Vantaggi fiscali",
-                    "text": "I nostri fondi pensione offrono significativi vantaggi fiscali.",
-                    "cta": {
-                        "text": "Scopri di più",
-                        "link": "vantaggi-fiscali.html"
-                    }
+                    "title": "Esperienza e affidabilità",
+                    "text": "Con 25 anni di leadership nel settore, Arca Fondi ha dimostrato la sua competenza e solidità nel tempo, gestendo con successo il futuro finanziario di milioni di italiani."
                 },
                 {
-                    "id": "altro",
-                    "title": "altro",
-                    "text": "I nostri fondi pensione offrono sono...",
-                    "cta": {
-                        "text": "Scopri di più",
-                        "link": "#altro"
-                    }
+                    "title": "Flessibilità",
+                    "text": "Offriamo diverse tipologie di adesione (individuale con o senza TFR, collettiva) e vari comparti di investimento, permettendoti di personalizzare la tua strategia previdenziale in base alle tue esigenze e al tuo profilo di rischio."
+                },
+                {
+                    "title": "Gestione professionale",
+                    "text": "Il tuo capitale viene gestito da professionisti esperti, che lavorano per ottimizzare i rendimenti nel lungo periodo, considerando anche fattori di sostenibilità."
+                },
+                {
+                    "title": "Trasparenza e controllo",
+                    "text": "Attraverso il servizio ArcaClick, hai accesso 24/7 alla tua posizione, potendo monitorare l'andamento del tuo investimento e effettuare operazioni online in totale autonomia."
                 }
             ]
+        },
+        {
+            "id": "vantaggi-fiscali",
+            "title": "Vantaggi fiscali",
+            "text": "Scegliere i fondi pensione Arca ti garantisce importanti benefici fiscali:",
+            "subsections": [
+                {
+                    "title": "Deducibilità dei contributi",
+                    "text": "Puoi dedurre dal tuo reddito imponibile i contributi versati fino a 5.164,57 euro all'anno, con un risparmio fiscale che può arrivare fino al 43% dell'importo versato, in base alla tua aliquota marginale."
+                },
+                {
+                    "title": "Tassazione agevolata dei rendimenti",
+                    "text": "I rendimenti maturati nel fondo sono tassati al 20% (invece del 26% applicato ad altre forme di investimento), con ulteriore riduzione al 12,5% per la quota investita in titoli di Stato."
+                },
+                {
+                    "title": "Tassazione vantaggiosa delle prestazioni",
+                    "text": "Al momento del pensionamento, le prestazioni erogate godono di una tassazione agevolata che parte dal 15% e può ridursi fino al 9% in base agli anni di partecipazione al fondo."
+                },
+                {
+                    "title": "Benefici per i giovani lavoratori",
+                    "text": "Per i lavoratori di prima occupazione è prevista un'ulteriore possibilità di deduzione fino a 2.582,29 euro annui aggiuntivi, a determinate condizioni."
+                }
+            ]
+        },
+        {
+            "id": "altro",
+            "title": "Altre caratteristiche dei nostri fondi pensione",
+            "text": "Oltre ai vantaggi già menzionati, i fondi pensione Arca offrono:",
+            "subsections": [
+                {
+                    "title": "Anticipazioni e riscatti",
+                    "text": "Possibilità di richiedere anticipazioni per specifiche esigenze (acquisto prima casa, spese sanitarie) o riscatti parziali in caso di perdita dei requisiti di partecipazione, offrendo flessibilità nell'utilizzo del capitale accumulato."
+                },
+                {
+                    "title": "Rendita Integrativa Temporanea Anticipata (RITA)",
+                    "text": "Opportunità di accedere in anticipo a una parte o all'intero montante accumulato, per chi è prossimo alla pensione e ha cessato l'attività lavorativa."
+                },
+                {
+                    "title": "Diverse opzioni di rendita",
+                    "text": "Al pensionamento, puoi scegliere tra varie opzioni di rendita, incluse quelle reversibili o con coperture assicurative aggiuntive, per adattare la prestazione alle tue esigenze familiari."
+                },
+                {
+                    "title": "Costi competitivi",
+                    "text": "I nostri fondi si caratterizzano per una struttura di costi trasparente e competitiva, che ti permette di massimizzare il capitale accumulato nel lungo periodo."
+                }
+            ]
+        },
+        {
+            "id": "cta-finale",
+            "title": "Inizia oggi il tuo percorso verso un futuro sereno",
+            "text": "Con i fondi pensione Arca, hai tutti gli strumenti per costruire la tua sicurezza finanziaria futura. Non aspettare, il momento giusto per iniziare è adesso!",
+            "cta": {
+                "text": "Scopri il fondo pensione adatto a te",
+                "link": "https://www.arcaonline.it/soluzioni-dinvestimento/previdenza/"
+            }
         }
     ]
 }
