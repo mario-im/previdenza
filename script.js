@@ -97,7 +97,7 @@ function loadContent() {
         .catch(error => console.error('Errore nel caricamento dei contenuti:', error));
 }
 
-// Funzione per creare l'HTML del contenuto basato sui dati JSON
+// Funzione per creare l'HTML del contenuto basato sui dati JSON e supporto per CTA multiple in una singola sezione.
 function createContentHTML(contentData) {
     return contentData.sections.map(section => {
         let sectionHTML = `<div class="content-box" id="${section.id}">`;
@@ -117,7 +117,13 @@ function createContentHTML(contentData) {
         }
         
         if (section.cta) {
-            sectionHTML += `<a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>`;
+            if (Array.isArray(section.cta)) {
+                sectionHTML += section.cta.map(cta => 
+                    `<a href="${cta.link}" class="cta-button">${cta.text}</a>`
+                ).join('');
+            } else {
+                sectionHTML += `<a href="${section.cta.link}" class="cta-button">${section.cta.text}</a>`;
+            }
         }
         
         sectionHTML += '</div>';
