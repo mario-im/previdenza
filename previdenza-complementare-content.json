@@ -15,6 +15,15 @@
             "text": "La previdenza complementare è una forma di risparmio che si affianca alla pensione pubblica. Si tratta di un sistema di accumulo di capitale che, attraverso versamenti periodici e una gestione professionale, mira a costruire una rendita aggiuntiva per il periodo di pensionamento."
         },
         {
+            "id": "come-funziona-fondo-pensione",
+            "title": "Come funziona un Fondo Pensione?",
+            "text": "Quando aderisci a un Fondo Pensione, la tua posizione individuale è determinata dai contributi che hai versato e dai rendimenti generati dagli investimenti, al netto dei costi. Questa posizione costituisce la base per il pagamento della tua futura pensione integrativa, che dipenderà dall'ammontare dei contributi, dalla durata della contribuzione e dai rendimenti ottenuti.",
+            "cta": {
+                "text": "Meglio aderire presto per accumulare di più!",
+                "link": "come-funziona-fondo-pensione.html"
+            }
+        },
+        {
             "id": "obiettivo-previdenza-complementare",
             "title": "Qual è l'obiettivo della previdenza complementare?",
             "text": "L'obiettivo principale della previdenza complementare è quello di integrare la pensione pubblica, garantendo un reddito aggiuntivo durante il periodo di pensionamento. Questo permette di mantenere un tenore di vita adeguato e di affrontare con maggiore serenità le esigenze economiche della terza età."
@@ -30,7 +39,7 @@
         },
         {
             "id": "schede-prodotto",
-            "title": "Schede prodotto",
+            "title": "Fondi Pensione le nostre soluzioni - Schede prodotto",
             "text": "Esplora le nostre soluzioni di previdenza complementare. Abbiamo opzioni adatte a ogni esigenza e profilo di rischio. Dalle nostre schede prodotto potrai ottenere informazioni dettagliate su ogni fondo, comprenderne le caratteristiche e scegliere quello più adatto alle tue esigenze.",
             "cta": {
                 "text": "Visualizza le schede",
@@ -40,7 +49,7 @@
         {
             "id": "aderisci-online",
             "title": "Aderisci online",
-            "text": "Aderire al nostro fondo pensione è facile, veloce e sicuro. Con pochi click puoi iniziare il tuo percorso verso una pensione più solida. La nostra piattaforma online ti guiderà passo dopo passo nel processo di adesione, permettendoti di completare l'iscrizione comodamente da casa. Non rimandare a domani la tua sicurezza finanziaria: inizia oggi stesso!",
+            "text": "Aderire al nostro fondo pensione è facile, veloce e sicuro. Con <b>pochi click </b>puoi iniziare il tuo percorso verso una pensione più solida. La nostra piattaforma online ti guiderà passo dopo passo nel processo di adesione, permettendoti di completare l'iscrizione comodamente da casa. Non rimandare a domani la tua sicurezza finanziaria: inizia oggi stesso!",
             "cta": {
                 "text": "Aderisci ora",
                 "link": "https://mao.arcaonline.it/"
