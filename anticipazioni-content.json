@@ -46,24 +46,19 @@
             "text": "Quando è richiedibile: dopo 8 anni di iscrizione\nImporto anticipabile: fino al 30% del maturato\nCome è tassato: aliquota fissa del 23%*"
         },
         {
-            "id": "regole-cambio-lavoro",
-            "title": "Le Regole per Quando si Cambia Lavoro",
-            "text": "Sulla base della regolamentazione stabilita dalla Covip, qualora si presenti l’ipotesi di una riassunzione, il dipendente deve fornire al nuovo datore di lavoro il modulo di scelta consegnato a suo tempo al precedente datore. A questo punto le possibili situazioni sono tre:\n\n1. Lavoratore che non aveva conferito il TFR a una forma pensionistica complementare: la nuova azienda continuerà a mantenerlo con questo regime, modificabile in ogni momento a condizione di devolverlo ai fondi pensione.\n2. Lavoratore che aveva conferito il TFR a una forma pensionistica complementare e, in seguito alla cessazione del rapporto di lavoro, aveva richiesto il riscatto dell'intera posizione individuale: in quest'ipotesi, entro sei mesi dalla nuova assunzione, il lavoratore deve riconsegnare il modulo di scelta sul TFR, scelta che potrà essere diversa da quella compiuta in precedenza. In caso di mancata consegna, il TFR che matura dal mese successivo alla scadenza del semestre viene destinato integralmente al fondo pensione di riferimento.\n3. Lavoratore che aveva conferito il TFR a una forma pensionistica complementare e non ha richiesto il riscatto nel vecchio fondo: in quest'ipotesi rimane valida la precedente scelta; entro sei mesi dall'assunzione deve comunicare al nuovo datore di lavoro il fondo cui intende destinare il TFR."
-        },
-        {
             "id": "regole-riscatto",
             "title": "Le Regole sul Riscatto",
             "text": "Nei fondi pensione è possibile chiedere il riscatto parziale o totale della posizione maturata nei casi seguenti:\n\nRiscatto parziale: 50% della posizione individuale maturata\nQuando è possibile:\n1) In caso di cessazione dell'attività di lavoro con conseguente inoccupazione per un periodo di tempo compreso fra 12 e 48 mesi.\n2) Procedure di mobilità o assimilabili ad “ammortizzatori sociali”, ad esempio fondo esuberi.\n3) Cassa integrazione guadagni a zero ore, ordinaria o straordinaria che comporti l’inoccupazione per un periodo minimo di 12 mesi.\nCome è tassato: punti 1) 2) e 3) per il 50% aliquota max 15% (*).\n\nRiscatto totale: 100% della posizione maturata\nQuando è possibile:\n1) Cessazione dell'attività lavorativa con conseguente inoccupazione superiore a 48 mesi.\n2) In caso di premorienza: è richiedibile dagli eredi ovvero dai beneficiari designati.\n3) Stato di invalidità permanente che comporti la riduzione della capacità di lavoro a meno di un terzo.\n4) Solo per adesioni su base collettiva: nei casi di cessazione del rapporto di lavoro, venendo meno il requisito di partecipazione al fondo, è possibile richiedere il riscatto totale.\n5) Per le adesioni su base individuale: cessazione dell’attività lavorativa dichiarata in sede di adesione o in un momento successivo.\nCome è tassato: punti 1) 2) 3) aliquota max 15% (*), punto 4) 5) aliquota fissa del 23% (*).\n\n* Sui contributi versati a partire dal 01/01/2007. La tassazione applicata dal Fondo su quanto maturato dal 01.01.2007 in avanti, è definitiva. L'importo non viene riliquidato da parte degli uffici finanziari e non deve essere riportato a fine anno nella dichiarazione dei redditi. Nel caso in cui il lavoratore perda i requisiti di partecipazione a un fondo pensione, non è obbligato a riscattare la posizione, ma può decidere di mantenere la posizione anche senza versamento di contributi."
+        },
+        {
+            "id": "regole-cambio-lavoro",
+            "title": "Le Regole per Quando si Cambia Lavoro",
+            "text": "Sulla base della regolamentazione stabilita dalla Covip, qualora si presenti l’ipotesi di una riassunzione, il dipendente deve fornire al nuovo datore di lavoro il modulo di scelta consegnato a suo tempo al precedente datore. A questo punto le possibili situazioni sono tre:\n\n1. Lavoratore che non aveva conferito il TFR a una forma pensionistica complementare: la nuova azienda continuerà a mantenerlo con questo regime, modificabile in ogni momento a condizione di devolverlo ai fondi pensione.\n2. Lavoratore che aveva conferito il TFR a una forma pensionistica complementare e, in seguito alla cessazione del rapporto di lavoro, aveva richiesto il riscatto dell'intera posizione individuale: in quest'ipotesi, entro sei mesi dalla nuova assunzione, il lavoratore deve riconsegnare il modulo di scelta sul TFR, scelta che potrà essere diversa da quella compiuta in precedenza. In caso di mancata consegna, il TFR che matura dal mese successivo alla scadenza del semestre viene destinato integralmente al fondo pensione di riferimento.\n3. Lavoratore che aveva conferito il TFR a una forma pensionistica complementare e non ha richiesto il riscatto nel vecchio fondo: in quest'ipotesi rimane valida la precedente scelta; entro sei mesi dall'assunzione deve comunicare al nuovo datore di lavoro il fondo cui intende destinare il TFR."
         },
         {
             "id": "regole-cambio-comparto",
             "title": "Le Regole sul Cambio di Comparto",
             "text": "L’aderente può cambiare il proprio piano pensionistico nel tempo, passando da profili di rischio maggiore ad altri più tranquilli o viceversa. Può variare il comparto di destinazione dei versamenti futuri o quello del montante già accumulato; oppure può modificarli entrambi nello stesso momento. La modifica di allocazione può essere richiesta dopo che siano trascorsi 12 mesi dall’adesione o dalla precedente richiesta di riallocazione."
         },
-        {
-            "id": "conclusioni",
-            "title": "Conclusioni",
-            "text": "In conclusione, Anticipazioni è un aspetto importante della previdenza complementare."
-        }
     ]
 }
