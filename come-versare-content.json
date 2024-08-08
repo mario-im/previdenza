@@ -3,37 +3,27 @@
         {
             "id": "introduzione",
             "title": "Come Versare",
-            "text": "Questa è una panoramica su Come Versare. Per maggiori dettagli su come effettuare i versamenti nella previdenza complementare, puoi consultare il sito di Arca Fondi: https://www.arcafondi.it/s/previdenza/come-versare."
+            "text": "Scopri tutte le modalità di versamento sul tuo Fondo Arca Previdenza."
         },
         {
-            "id": "dettagli",
-            "title": "Dettagli su Come Versare",
-            "text": "Per informazioni dettagliate su Come Versare nella previdenza complementare, puoi visitare: https://www.arcafondi.it/s/previdenza/previdenza-versamenti-digitali."
+            "id": "adesioni-individuali-senza-tfr",
+            "title": "Adesioni Individuali senza il Versamento del TFR",
+            "text": "Coloro che hanno aderito ad Arca Previdenza con adesione individuale SENZA versamento del TFR conferiscono al fondo pensione soltanto i propri contributi. I versamenti vengono effettuati dall'aderente stesso tramite il Soggetto Collocatore scelto, oppure effettuando un bonifico da altra banca a favore del conto:\nIBAN: IT 87 K 0347901600000802552201\nintestato a: \"FONDO PENSIONE ARCA PREVIDENZA\" presso BNP Paribas Securities Services, Piazza Lina Bo Bardi, 3 - 20124 Milano (Banca Depositaria del Fondo Pensione).\n\nAvendo cura di inserire nel campo descrittivo del bonifico il proprio Codice Fiscale seguito da cognome e nome."
         },
         {
-            "id": "vantaggi",
-            "title": "Vantaggi",
-            "text": "I principali vantaggi di Come Versare includono:\n• Possibilità di effettuare versamenti digitali comodamente online\n• Flessibilità nei contributi e nelle modalità di versamento\n• Accesso a servizi personalizzati per la gestione della propria previdenza complementare."
+            "id": "adesioni-individuali-con-tfr",
+            "title": "Adesioni Individuali con il Versamento del TFR",
+            "text": "Il lavoratore dipendente che ha aderito ad Arca Previdenza con adesione individuale conferisce al fondo pensione, tramite il datore di lavoro, almeno il TFR.\n\n1 - Contribuzioni per singolo dipendente senza l’invio della distinta:\ntramite bonifico singolo a favore del conto\nIBAN: IT 87 K 0347901600000802552201\nintestato a: \"FONDO PENSIONE ARCA PREVIDENZA\" presso BNP Paribas Securities Services, Piazza Lina Bo Bardi, 3 - 20124 Milano (Banca Depositaria del Fondo Pensione).\n\nNOTA BENE: per la corretta attribuzione dei versamenti e per la ripartizione dell'importo versato per canale contributivo (TFR, eventuale contributo del dipendente e eventuale contributo dell'azienda), il campo descrittivo di ciascun bonifico deve essere compilato nel seguente modo:\n\n\"codice fiscale del dipendente (16 caratteri)\" [spazio] \"TFRimporto,00\" [spazio] \"DIPimporto,00\" [spazio] \"AZimporto,00\".\n\nEsempio: versamento effettuato per conto del sig. Mario Rossi di complessivi Euro 750,23 così composti:\n• Euro 300,23 TFR\n• Euro 250,50 contributo a carico dipendente\n• Euro 199,50 contributo a carico azienda\n\nIl bonifico di complessivi Euro 750,23 dovrà riportare nel campo descrittivo:\nRSSMRA00S00X205X TFR300,23 DIP250,50 AZ199,50.\n\nNel caso in cui la descrizione del bonifico non rispettasse il formato richiesto, l'intera contribuzione verrà attribuita al canale contributivo TFR. Inoltre, in assenza del codice fiscale del dipendente a favore del quale viene effettuato il bonifico, il bonifico stesso non potrà essere accettato e verrà respinto, quindi il versamento al fondo non avrà luogo."
         },
         {
-            "id": "come-funziona",
-            "title": "Come funziona",
-            "text": "Ecco come funziona il processo di versamento nella previdenza complementare:\n1. Seleziona l'importo e la frequenza dei versamenti direttamente dal portale di Arca Fondi.\n2. Effettua il versamento utilizzando i metodi di pagamento disponibili, come bonifico bancario o altri sistemi di pagamento digitali.\n3. Monitora i tuoi versamenti e la crescita del tuo fondo pensione attraverso l'area riservata del sito."
-        },
-        {
-            "id": "anticipazioni",
-            "title": "Anticipazioni",
-            "text": "Per informazioni sulle anticipazioni nella previdenza complementare, visita il sito: https://www.arcafondi.it/s/previdenza/anticipazioni."
-        },
-        {
-            "id": "rita",
-            "title": "RITA - Rendita Integrativa Temporanea Anticipata",
-            "text": "Per conoscere i dettagli sulla RITA, consulta la pagina: https://www.arcafondi.it/s/previdenza/rita.\nApprofondimenti:\n• L'aderente può revocare in qualsiasi momento la RITA, interrompendo il rimborso del capitale. Il capitale non rimborsato rimane investito nella forma pensionistica e può essere utilizzato secondo le norme del prodotto pensionistico scelto.\n• Se l'aderente decide di trasferire la sua posizione a un'altra forma pensionistica, la RITA viene automaticamente revocata e l'intero capitale residuo viene trasferito.\n• In caso di decesso dell'aderente durante il periodo di percezione della RITA, il capitale non ancora rimborsato viene liquidato agli eredi o ai beneficiari designati. Questo capitale non fa parte dell'asse ereditario e non è soggetto all'imposta di successione."
+            "id": "contribuzione-con-distinta",
+            "title": "Contribuzione per uno o più dipendenti con l’invio della distinta",
+            "text": "Per la contribuzione per uno o più dipendenti con l’invio della distinta, effettuare un bonifico cumulativo a favore del conto\nIBAN: IT 64 L 0347901600000802552202\nintestato a: \"FONDO PENSIONE ARCA PREVIDENZA\" presso BNP Paribas Securities Services, Piazza Lina Bo Bardi, 3 - 20124 Milano (Banca Depositaria del Fondo Pensione), avendo cura di inserire nel campo descrittivo il Codice Azienda e la denominazione dell'azienda."
         },
         {
             "id": "conclusioni",
             "title": "Conclusioni",
-            "text": "In conclusione, Come Versare è un aspetto importante della previdenza complementare. Per maggiori informazioni e per iniziare a versare, visita i link forniti e scopri tutti i dettagli su come gestire al meglio i tuoi contributi."
+            "text": "Per ulteriori dettagli e per iniziare a versare sul tuo Fondo Arca Previdenza, segui le istruzioni fornite. Assicurati di utilizzare i codici corretti per garantire l'attribuzione corretta dei tuoi versamenti."
         }
     ]
 }
