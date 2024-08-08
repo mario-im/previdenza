@@ -3,27 +3,40 @@
         {
             "id": "introduzione",
             "title": "Vantaggi Fiscali",
-            "text": "Questa è una panoramica su Vantaggi Fiscali. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "text":"La previdenza complementare è un efficace strumento di risparmio grazie a numerose agevolazioni fiscali. Queste agevolazioni riguardano sia i versamenti dei contributi nel fondo pensione, sia l'erogazione delle prestazioni prima e dopo il pensionamento. Inoltre, i rendimenti dei fondi pensione beneficiano di un'imposta agevolata, rendendo la previdenza complementare una scelta finanziaria vantaggiosa per chi desidera integrare il proprio reddito pensionistico."
         },
         {
             "id": "dettagli",
-            "title": "Dettagli su Vantaggi Fiscali",
-            "text": "Qui troverai informazioni dettagliate su Vantaggi Fiscali. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "title": "La contribuzione",
+            "text": "Puoi dedurre dall'Irpef fino a 5.164,57 euro l'anno, con un risparmio fiscale che oscilla tra i 1.187 euro e i 2.220 euro. Se sei un lavoratore dipendente, sono deducibili dall'IRPEF anche i contributi versati dal tuo datore di lavoro.<br>Se i contributi versati sono inferiori al limite previsto, l'importo della deduzione non utilizzata non può essere riportato agli anni successivi.",
+            "cta": {
+                "text": "Calcola il tuo vantaggio fiscale!",
+                "link": "https://www.arcafondi.it/s/previdenza/vantaggio-fiscale"
+            }
         },
         {
-            "id": "vantaggi",
-            "title": "Vantaggi",
-            "text": "I principali vantaggi di Vantaggi Fiscali includono: \n• Punto 1\n• Punto 2\n• Punto 3"
+            "id": "come-influisce",
+            "title": "Come il Fondo Pensione influisce sulla Dichiarazione dei redditi e 730?",
+            "text": "Per i lavoratori dipendenti, il datore di lavoro trattiene mensilmente dalla tua retribuzione la quota a tuo carico, applicando la deduzione dei contributi direttamente in busta paga. Con la Certificazione Unica (ex CUD), il datore di lavoro fornisce una panoramica completa dei versamenti effettuati nell’anno precedente, escludendoli dal reddito di lavoro dipendente. Pertanto, il lavoratore non deve presentare alcuna documentazione aggiuntiva nella dichiarazione dei redditi.<br>Se il lavoratore effettua dei i versamenti volontari diretti, ossia quelli effettuati al di fuori della busta paga da lavoratori dipendenti, autonomi, pensionati e altri iscritti con una posizione attiva nel fondo pensione, è necessario presentare una copia dell’ordine di bonifico nella dichiarazione dei redditi.<br><br>I contributi versati che superano il limite di 5.165 € non sono deducibili dal reddito. Tali importi devono essere comunicati al fondo pensione entro il 31 dicembre dell'anno successivo al versamento, utilizzando l'apposito modulo disponibile sul sito del fondo pensione. Questa comunicazione è essenziale per escludere i contributi non dedotti dalla base imponibile, che sarà considerata per la tassazione al momento della richiesta di liquidazione di una prestazione dal fondo pensione."
         },
         {
-            "id": "come-funziona",
-            "title": "Come funziona",
-            "text": "Ecco come funziona Vantaggi Fiscali:\n1. Passo uno\n2. Passo due\n3. Passo tre"
+            "id": "rendimenti",
+            "title": "I rendimenti",
+            "text": "A differenza di altre forme di investimento, il rendimento generato nel fondo pensione da titoli diversi rispetto ai titoli pubblici italiani nonché dai titoli di Stato e di emittenti internazionali rientranti nella c.d. White List, è tassato al 20% anziché al 26%e"
+        },
+        {
+            "id": "prestazio i",
+            "title": "Le prestazioni",
+            "text": "La prestazione, sia in forma di rendita che in capitale è soggetta all'aliquota definitiva del 15% (*) sui redditi non tassati in precedenza, mentre il TFR lasciato in azienda al momento della cessazione del rapporto di lavoro subisce una tassazione con un’aliquota minima IRPEF a partire dal 23%.<br><br>In più, le partecipazioni protratte nel tempo ai fondi pensione aperti vengono premiate con una riduzione dello 0,30% per ogni anno successivo al quindicesimo.<br>Lo “sconto” può arrivare fino al 6%: un’evidente convenienza fiscale a seguito di una lunga permanenza nel Fondo. I benefici fiscali possono essere sfruttati facendo aderire anche i familiari a carico, compresi quelli che non percepiscono reddito (casalinghe, figli minori, studenti); in questo caso i contributi versati saranno deducibili dal reddito del dichiarante.<br><br>(*) sui contributi versati a partire dal 1/1/2007"
         },
         {
             "id": "conclusioni",
             "title": "Conclusioni",
-            "text": "In conclusione, Vantaggi Fiscali è un aspetto importante della previdenza complementare. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "text": "Le opportunità fiscali offerte dai Fondi Pensione sono varie e ti permettono di avere dei benefici nel breve termine. Non perdere l’occasione aderisci ad Arca Previdenza",
+            "cta": {
+                "text": "MAO",
+                "link": "#MAO"
+            }
         }
     ]
 }
