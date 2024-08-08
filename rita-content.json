@@ -2,28 +2,33 @@
     "sections": [
         {
             "id": "introduzione",
-            "title": "Rita",
-            "text": "Questa è una panoramica su Rita. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "title": "RITA",
+            "text": "La R.I.T.A. (Rendita Integrativa Temporanea Anticipata) consiste nell’erogazione a rate di tutto o parte del montante accumulato, una volta verificato il possesso dei requisiti da parte del fondo pensione, fino alla maturazione del diritto alla pensione di vecchiaia. È accessibile a tutti i lavoratori (dipendenti privati e pubblici, autonomi, liberi professionisti…)."
         },
         {
-            "id": "dettagli",
-            "title": "Dettagli su Rita",
-            "text": "Qui troverai informazioni dettagliate su Rita. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "id": "caratteristiche",
+            "title": "Caratteristiche Principali",
+            "text": "• L’intero capitale erogato a rate è soggetto a tassazione agevolata con aliquota del 15% massimo - 9% minimo\n• La RITA potrà riguardare l’intero montante accumulato presso il fondo ovvero parte di esso, a scelta dell’iscritto.\n• L’erogazione finanziaria avviene direttamente da parte di Arca Previdenza, con periodicità trimestrale.\n• Tranne diversa disposizione dell’iscritto, l’importo utile alla RITA viene investito nel comparto più prudente, Obiettivo TFR, senza garanzia."
         },
         {
-            "id": "vantaggi",
-            "title": "Vantaggi",
-            "text": "I principali vantaggi di Rita includono: \n• Punto 1\n• Punto 2\n• Punto 3"
+            "id": "tassazione",
+            "title": "Tassazione",
+            "text": "• La parte imponibile del capitale erogato è assoggettata alla ritenuta a titolo d’imposta con l’aliquota del 15% ridotta di una quota pari a 0,30 punti percentuali per ogni anno eccedente il quindicesimo anno di partecipazione a forme pensionistiche complementari con un limite massimo di riduzione di 6 punti percentuali."
         },
         {
-            "id": "come-funziona",
-            "title": "Come funziona",
-            "text": "Ecco come funziona Rita:\n1. Passo uno\n2. Passo due\n3. Passo tre"
+            "id": "condizioni-accesso",
+            "title": "Condizioni per l’Accesso alla R.I.T.A.",
+            "text": "CASO A:\n• Cessazione del rapporto di lavoro e inoccupazione al momento della richiesta\n• 5 anni di partecipazione alla previdenza complementare\n• Non più di 5 anni al raggiungimento dell’età per la pensione di vecchiaia\n• Anzianità contributiva minima nel sistema di previdenza obbligatoria di 20 anni.\n\nCASO B:\n• Cessazione del rapporto di lavoro e conseguente inoccupazione di almeno 24 mesi\n• 5 anni di partecipazione alla previdenza complementare\n• Non più di 10 anni al raggiungimento dell’età per la pensione di vecchiaia."
+        },
+        {
+            "id": "approfondimenti",
+            "title": "Approfondimenti",
+            "text": "L'aderente può revocare in qualsiasi momento la RITA, interrompendo il rimborso del capitale. In tal caso, il capitale non rimborsato rimane investito nella forma pensionistica e l'aderente può utilizzarlo secondo le norme e le regole del prodotto pensionistico scelto.\n\nSe l'aderente decide di trasferire la sua posizione a un'altra forma pensionistica, la RITA viene automaticamente revocata, e l'intero capitale residuo viene trasferito.\n\nIn caso di decesso dell'aderente durante il periodo di percezione della RITA, il capitale non ancora rimborsato viene liquidato agli eredi o ai beneficiari designati. Questo capitale non fa parte dell'asse ereditario e non è soggetto all'imposta di successione."
         },
         {
             "id": "conclusioni",
             "title": "Conclusioni",
-            "text": "In conclusione, Rita è un aspetto importante della previdenza complementare. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "text": "In conclusione, la RITA rappresenta un'opportunità significativa per chi desidera anticipare il proprio accesso alla pensione utilizzando il montante accumulato. È importante considerare le condizioni e le opportunità fiscali offerte da questa opzione all'interno della previdenza complementare."
         }
     ]
 }

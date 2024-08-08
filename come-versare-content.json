@@ -21,9 +21,14 @@
             "text": "Per la contribuzione per uno o più dipendenti con l’invio della distinta, effettuare un bonifico cumulativo a favore del conto\nIBAN: IT 64 L 0347901600000802552202\nintestato a: \"FONDO PENSIONE ARCA PREVIDENZA\" presso BNP Paribas Securities Services, Piazza Lina Bo Bardi, 3 - 20124 Milano (Banca Depositaria del Fondo Pensione), avendo cura di inserire nel campo descrittivo il Codice Azienda e la denominazione dell'azienda."
         },
         {
+            "id": "versamenti-digitali",
+            "title": "Versamenti Digitali",
+            "text": "Tutti gli aderenti al Fondo Pensione Arca Previdenza iscritti ad “ArcaClick” hanno la possibilità di effettuare dei Versamenti Digitali Aggiuntivi sulla propria posizione previdenziale attraverso Carta di Credito, Carta di Debito Internazionale.\n\nCome versa il cliente?\n1. Il Cliente può disporre un Versamento Aggiuntivo sulle proprie posizioni attive nel Fondo Pensione “Arca Previdenza”. Accedendo alla sua posizione personale ArcaClick dal sito arcafondi.it o dall’APP Mobile “Arca Fondi”, e cliccando sul tasto “Versa”.\n2. Dopo aver inserito l’ammontare del Versamento, verrà collegato al VPOS (Virtual POS) payment gateway “X-Pay”® di Nexi dove potrà effettuare il Versamento in una delle seguenti modalità:\n   • Carta di Credito\n   • Carta di Debito Internazionale/Carta Prepagata\n   • Apple Pay (disponibile su device abilitati).\n\nI costi inerenti alla transazione sono interamente a carico di Arca Fondi SGR; un versamento digitale è a costo/commissioni zero per il cliente. Es. su 100 € di Versamento Digitale, 100 € saranno valorizzati sul Fondo Pensione."
+        },
+        {
             "id": "conclusioni",
             "title": "Conclusioni",
-            "text": "Per ulteriori dettagli e per iniziare a versare sul tuo Fondo Arca Previdenza, segui le istruzioni fornite. Assicurati di utilizzare i codici corretti per garantire l'attribuzione corretta dei tuoi versamenti."
+            "text": "Per ulteriori dettagli e per iniziare a versare sul tuo Fondo Arca Previdenza, segui le istruzioni fornite. Assicurati di utilizzare i codici corretti per garantire l'attribuzione corretta dei tuoi versamenti e considera l'opzione dei versamenti digitali per una maggiore comodità."
         }
     ]
 }
