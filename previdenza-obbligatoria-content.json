@@ -2,8 +2,8 @@
     "sections": [
         {
             "id": "introduzione",
-            "title": "Previdenza Obbligatoria",
-            "text": "Questa è una panoramica su Previdenza Obbligatoria. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "title": "Cos’è la previdenza obbligatoria?",
+            "text":"La previdenza obbligatoria, nota anche come previdenza di base, è l'insieme di norme che regolano i comportamenti dei datori di lavoro e dei lavoratori per garantire una pensione al raggiungimento di determinati requisiti, come l'età pensionabile o l'anzianità contributiva. L'obiettivo principale della previdenza di base è fornire ai lavoratori una pensione maturata al termine della loro carriera lavorativa. I lavoratori del settore privato sono tenuti ad aderire al fondo pensioni dei lavoratori dipendenti, gestito dall'Istituto Nazionale della Previdenza Sociale (INPS). Maggiori informazioni le puoi trovare qui https://www.lavoro.gov.it/temi-e-priorita/previdenza/focus-on/previdenza-obbligatoria/pagine/default"
         },
         {
             "id": "dettagli",
@@ -11,19 +11,24 @@
             "text": "Qui troverai informazioni dettagliate su Previdenza Obbligatoria. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
-            "id": "vantaggi",
-            "title": "Vantaggi",
-            "text": "I principali vantaggi di Previdenza Obbligatoria includono: \n• Punto 1\n• Punto 2\n• Punto 3"
+            "id": "come-verificare",
+            "title": "Come verificare la propria posizione contributiva?",
+            "text": "Verificare la propria posizione contributiva è fondamentale per assicurarsi che i contributi versati corrispondano al periodo di lavoro effettivo. L'importo della pensione e l'età in cui si può usufruire della previdenza obbligatoria dipendono dal valore dei contributi accumulati. Per controllare la propria posizione contributiva, è sufficiente visitare il sito web dell'ente erogatore (ad Esempio INPS), e verificare i dettagli dei contributi versati, inclusi il valore, la tipologia, la quantità e l'azienda che li ha erogati. Utilizzare regolarmente questi strumenti online può garantire una gestione consapevole e aggiornata del proprio futuro pensionistico."
         },
         {
             "id": "come-funziona",
             "title": "Come funziona",
-            "text": "Ecco come funziona Previdenza Obbligatoria:\n1. Passo uno\n2. Passo due\n3. Passo tre"
+            "text":"La previdenza obbligatoria in Italia si basa, bella maggioranza dei casi, sul calcolo contributivo, introdotto con la riforma del sistema pensionistico del 2011 nota come Legge Fornero. Questa riforma stabilisce che l'importo della pensione dipende dai contributi versati durante la vita lavorativa. Pertanto, più contributi si versano, maggiore sarà il reddito pensionistico. Oltre ai contributi, l'età al momento del pensionamento influisce sull'importo della pensione: un'età di pensionamento più alta porta a un assegno pensionistico più elevato.<br>I principali fattori che determinano il calcolo della pensione sono:\n. Il valore dei contributi versati\n. L'età di pensionamento\n. Il PIL del Paese <br<>Comprendere questi aspetti è fondamentale per una corretta pianificazione del proprio futuro pensionistico."
+        },
+        {
+            "id": "differenze",
+            "title": "Differenze tra Previdenza Obbligatoria e Previdenza Complementare",
+            "text":"La previdenza obbligatoria e la previdenza complementare differiscono in vari aspetti fondamentali:/n• Previdenza Obbligatoria: È un sistema a cui il lavoratore deve aderire obbligatoriamente. Questo sistema funziona attraverso un meccanismo a ripartizione, in cui i contributi dei lavoratori attuali finanziano le pensioni dei pensionati attuali. La gestione è statale, garantendo un supporto pensionistico di base a tutti i lavoratori./n• Previdenza Complementare: È una scelta volontaria, basata su un sistema di capitalizzazione individuale. In questo caso, i contributi versati vengono investiti e accumulati in un conto personale, gestito da enti privati. È anche nota come previdenza a contribuzione definita, poiché il lavoratore conosce in anticipo l'importo da versare periodicamente.<br>Capire le differenze tra previdenza obbligatoria e previdenza complementare è cruciale per pianificare una strategia pensionistica efficace, consentendo di ottimizzare il proprio futuro finanziario e di garantirsi un tenore di vita adeguato in pensione."
         },
         {
             "id": "conclusioni",
             "title": "Conclusioni",
-            "text": "In conclusione, Previdenza Obbligatoria è un aspetto importante della previdenza complementare. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "text": "La differenza tra l'importo della prima pensione e l'ultimo stipendio percepito durante la carriera lavorativa è ormai un problema evidente si parla di gap Previdenziale (link o tooltip). Per risolvere questo problema si deve sempre affiancare alla previdenza obbligatoria un progetto di previdenza complementare."
         }
     ]
 }
