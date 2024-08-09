@@ -1,29 +1,84 @@
 {
     "sections": [
         {
-            "id": "introduzione",
+            "id": "documenti",
             "title": "Documentazione",
-            "text": "Questa è una panoramica su Documentazione. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "text": "Qui troverai una raccolta completa di documenti relativi a Arca Previdenza, inclusi regolamenti, informative, moduli e altro."
         },
         {
-            "id": "dettagli",
-            "title": "Dettagli su Documentazione",
-            "text": "Qui troverai informazioni dettagliate su Documentazione. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            "id": "regolamento-nota-informativa",
+            "title": "Regolamento, nota Informativa",
+            "text": "Regolamento Fondo Pensione Aperto Arca Previdenza.pdf\nAllegato n.1 Disposizioni in materia di Responsabile.pdf\nAllegato n.2 Condizioni e modalità di erogazione delle rendite\nNota Informativa (Versione integrale).pdf\nParte I - Informazioni chiave per l'aderente - Presentazione\nParte I - Informazioni chiave per l'aderente - Scheda costi\nParte II - Informazioni integrative - Le opzioni di investimento.pdf\nParte II - Informazioni integrative - Soggetti coinvolti.pdf\nInformativa sulla sostenibilità - Fondo Pensione Aperto\nDocumento sulle anticipazioni.pdf\nDocumento sul regime fiscale.pdf\nScheda Collettivita Classe C.pdf"
         },
         {
-            "id": "vantaggi",
-            "title": "Vantaggi",
-            "text": "I principali vantaggi di Documentazione includono: \n• Punto 1\n• Punto 2\n• Punto 3"
+            "id": "informativa-sulla-sostenibilita",
+            "title": "Informativa sulla sostenibilità",
+            "text": "Informativa sulla Sostenibilità Arca Previdenza Alta Crescita Sostenibile Art. 8\nInformativa sulla Sostenibilità Arca Previdenza Crescita Sostenibile Art. 8\nInformativa sulla Sostenibilità Arca Previdenza Rendita Sostenibile Art. 8"
         },
         {
-            "id": "come-funziona",
-            "title": "Come funziona",
-            "text": "Ecco come funziona Documentazione:\n1. Passo uno\n2. Passo due\n3. Passo tre"
+            "id": "altri-documenti",
+            "title": "Altri documenti",
+            "text": "Documento sul sistema di governo societario\nDocumento sulla politica di investimento\nInformazioni sulla metodologia utilizzata per l'elaborazione delle prestazioni pensionistiche\nPolitica di impegno e elementi della strategia di investimento azionario dei fondi pensione"
         },
         {
-            "id": "conclusioni",
-            "title": "Conclusioni",
-            "text": "In conclusione, Documentazione è un aspetto importante della previdenza complementare. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            "id": "rendiconti-bilanci",
+            "title": "Rendiconti e bilanci",
+            "text": "Rendiconto annuale"
+        },
+        {
+            "id": "calendario-valorizzazione",
+            "title": "Calendario per la valorizzazione dei versamenti",
+            "text": "Calendario 2024 per la valorizzazione dei versamenti"
+        },
+        {
+            "id": "normativa",
+            "title": "Normativa",
+            "text": "Decreto 2 settembre 2014, n. 166.pdf\nDecreto Legislativo del 5 dicembre 2005 n.252.pdf\nGuida alla previdenza complementare COVIP.pdf"
+        },
+        {
+            "id": "modulistica",
+            "title": "Modulistica",
+            "text": ""
+        },
+        {
+            "id": "moduli-per-adesione",
+            "title": "Moduli per adesione",
+            "text": "Modulo di adesione Individuale ad Arca Previdenza senza il versamento del TFR.pdf\nModulo di adesione Individuale ad Arca Previdenza con il versamento del TFR.pdf\nModulo di adesione Individuale ad Arca Previdenza per Soggetti fiscalmente a carico di aderenti ad Arca Previdenza.pdf\nModulo di adesione Collettiva ad Arca Previdenza per i lavoratori dipendenti di aziende che hanno sottoscritto un accordo con Arca.pdf\nGUIDA - modulo autocertificazione residenza fiscale.pdf\nModulo autocertificazione CRS.pdf\nModulo per i lavoratori riassunti che avevano gia' conferito il TFR.pdf\nModulo riemersione silente.pdf\nModulo Ministeriale TFR2 per la scelta della destinazione del trattamento di fine rapporto.PDF"
+        },
+        {
+            "id": "moduli-ad-uso-aziende",
+            "title": "Moduli ad uso delle aziende",
+            "text": "Accordo Aziendale (Si' Sindacati, Si' Fondo Negoziale).pdf\nAccordo Plurimo (No Sindacati, No Fondo Negoziale).pdf\nAccordo Plurimo (No Sindacati, Si' Fondo Negoziale).pdf\nModulo di adesione Collettiva ad Arca Previdenza per i lavoratori dipendenti di aziende che hanno sottoscritto un accordo.pdf\nModulo per adesione tacita.pdf\nModulo per assunzione dipendenti.pdf\nModulo per cessazione dipendenti.pdf\nProtocollo operativo.pdf\nAccordo Aziendale (Si' Sindacati, No Fondo Negoziale).pdf\nDistinta versamento TFR PREGRESSO ad uso azienda\nDistinta versamenti ad uso azienda\nDFPA Istruzioni per il primo accesso"
+        },
+        {
+            "id": "moduli-post-adesione",
+            "title": "Moduli post adesione",
+            "text": "Riallocazione della posizione e dei contributi per i lavoratori dipendenti.pdf\nRiallocazione della posizione e dei contributi per le adesioni individuali.pdf\nComunicazione di attestazione contributi versati al fondo pensione non fiscalmente dedotti\nModulo di richiesta attivazione revoca del programma Life Cycle.pdf\nModulo di trasferimento in entrata.pdf\nModulo per cambio datore di lavoro.pdf\nModulo per il cambio CAB ad uso del collocatore.pdf\nModulo per il cambio del collocatore.pdf\nModulo unificazione posizioni.pdf\nVariazione dati anagrafici.pdf\nModello di Bonifico Bancario per il versamento al Fondo Pensione Aperto Arca Previdenza.pdf\nModulo di designazione revoca dei beneficiari\nModulo di trasferimento in uscita.pdf"
+        },
+        {
+            "id": "moduli-anticipazioni",
+            "title": "Moduli anticipazioni",
+            "text": "Anticipazione per acquisto prima casa\nAnticipazione per interventi di ristrutturazione sulla prima casa\nAnticipazione per spese sanitarie per il nucleo famigliare\nAnticipazione ulteriori esigenze\nGUIDA - Anticipazione per acquisto prima casa\nGUIDA - Anticipazione per interventi di ristrutturazione sulla prima casa\nGUIDA - Anticipazione per spese sanitarie per il nucleo famigliare\nGUIDA - Anticipazione per ulteriori esigenze"
+        },
+        {
+            "id": "moduli-riscatti",
+            "title": "Moduli riscatti",
+            "text": "GUIDA - Riscatto totale per aderente su base individuale.pdf\nGUIDA - Riscatto totale per lavoratore dipendente aderente su base collettiva.pdf\nGUIDA - Riscatto da parte di eredi.pdf\nRiscatto parziale per aderente su base individuale.pdf\nRiscatto parziale per lavoratore dipendente aderente su base collettiva.pdf\nRiscatto totale per aderente su base individuale.pdf\nRiscatto totale per lavoratore dipendente aderente su base collettiva.pdf\nRiscatto da parte di eredi.pdf"
+        },
+        {
+            "id": "rita",
+            "title": "R.I.T.A.",
+            "text": "Rendita integrativa temporanea anticipata.pdf\nModulo di richiesta di rendita integrativa temporanea anticipata (R.I.T.A.).pdf\nModulo di revoca di Rendita Integrativa Temporanea Anticipata (R.I.T.A.).pdf"
+        },
+        {
+            "id": "moduli-prestazioni-pensionistiche",
+            "title": "Moduli prestazioni pensionistiche",
+            "text": "GUIDA - Prestazione in caso di iscritto ad una forma di previdenza complementare dopo il 28041993 con almeno 5 anni.pdf\nGUIDA - Prestazione in caso di iscritto ad una forma di previdenza complementare prima del 28041993 (vecchio iscritto).pdf\nPrestazione in caso di iscritto ad una forma di previdenza complementare dopo il 28041993 con almeno 5 anni di isc\nPrestazione in caso di iscritto ad una forma di previdenza complementare prima del 28041993 (vecchio iscritto)\nModulo dati eredi per rendita vitalizia con controassicurazione.pdf\nModulo dati reversionario.pdf"
+        },
+        {
+            "id": "brochure",
+            "title": "Brochure",
+            "text": "Brochure ARCA Previdenza.pdf\nBrochure ARCA Previdenza TFR"
         }
     ]
 }
