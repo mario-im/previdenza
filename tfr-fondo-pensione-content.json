@@ -23,7 +23,11 @@
         {
             "id": "Conclusioni",
             "title": "Conclusioni",
-            "text":"Non esiste una risposta univoca quando si tratta di scegliere tra TFR e previdenza complementare. È importante considerare diversi fattori per prendere una decisione informata: i potenziali rendimenti più elevati, la diversificazione del rischio dell'investimento, e i vantaggi fiscali."
+            "text":"Non esiste una risposta univoca quando si tratta di scegliere tra TFR e previdenza complementare. È importante considerare diversi fattori per prendere una decisione informata: i potenziali rendimenti più elevati, la diversificazione del rischio dell'investimento, e i vantaggi fiscali.",
+            "cta": {
+                "text": "Aderisci online",
+                "link": "https://mao.arcaonline.it/"
+            }
         }
     ]
 }
