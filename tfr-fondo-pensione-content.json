@@ -10,14 +10,10 @@
             "title": "TFR il tuo tesoretto",
             "text": "Il Trattamento di Fine Rapporto (TFR) rappresenta un 'tesoretto' che si accumula durante gli anni di lavoro. I lavoratori possono scegliere come gestire il TFR con due opzioni principali: lasciare il TFR in azienda per ritirarlo alla fine del rapporto di lavoro, oppure trasferirlo in un fondo pensione per incrementare la propria previdenza complementare e integrare così l'assegno pensionistico pubblico al momento del pensionamento definitivo. Per scegliere cosa fare bisogna sapere alcune cose"
         },
-           {
-                "sections": [
-                    {
-                        "id": "cosa-valutare-per-investire",
-                        "title": "TFR elementi cosa valutare per investirlo?",
-                        "text": "### Rendimenti finanziari\n\nSe lasci il TFR in azienda, esso viene rivalutato annualmente all'1,5% più il 75% del tasso di inflazione dell'anno precedente. Questo è un rendimento fisso. Al contrario, investendo il TFR in un fondo pensione, puoi beneficiare dei potenziali guadagni dei mercati finanziari nel lungo periodo.\n\n### Taylor made\n\nPuoi scegliere una linea di investimento che rispecchi la tua propensione al rischio, il che può portare a rendimenti superiori nel tempo, nonostante eventuali ribassi nel breve termine.\n\n### Fiscalità\n\n#### Tassazione dei rendimenti\n\nI fondi pensione beneficiano di un’imposta sostitutiva del 20%, anziché del 26% come gli altri strumenti finanziari, su interessi e plusvalenze realizzate.\n\nIl rendimento del TFR lasciato in azienda è invece assoggettato all’aliquota del 17%.\n\n#### Tassazione al momento dell’erogazione del TFR\n\nI fondi pensione godono di un’aliquota agevolata min 9% max 15%\n\nTFR lasciato in azienda ha un’aliquota media tra il 23 ed il 43%"
-                    }
-                ]
+           {          
+            "id": "cosa-valutare-per-investire",
+            "title": "TFR elementi cosa valutare per investirlo?",
+            "text": "### Rendimenti finanziari\n\nSe lasci il TFR in azienda, esso viene rivalutato annualmente all'1,5% più il 75% del tasso di inflazione dell'anno precedente. Questo è un rendimento fisso. Al contrario, investendo il TFR in un fondo pensione, puoi beneficiare dei potenziali guadagni dei mercati finanziari nel lungo periodo.\n\n### Taylor made\n\nPuoi scegliere una linea di investimento che rispecchi la tua propensione al rischio, il che può portare a rendimenti superiori nel tempo, nonostante eventuali ribassi nel breve termine.\n\n### Fiscalità\n\n#### Tassazione dei rendimenti\n\nI fondi pensione beneficiano di un’imposta sostitutiva del 20%, anziché del 26% come gli altri strumenti finanziari, su interessi e plusvalenze realizzate.\n\nIl rendimento del TFR lasciato in azienda è invece assoggettato all’aliquota del 17%.\n\n#### Tassazione al momento dell’erogazione del TFR\n\nI fondi pensione godono di un’aliquota agevolata min 9% max 15%\n\nTFR lasciato in azienda ha un’aliquota media tra il 23 ed il 43%"      
             },
         {
             "id": "Conclusioni",
