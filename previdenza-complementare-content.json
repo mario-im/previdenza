@@ -58,7 +58,7 @@
         {
             "id": "siti-consigliati",
             "title": "I siti che ti consigliamo",
-            "text": "Per approfondire la tua conoscenza sulla previdenza e prendere decisioni informate, ti consigliamo di visitare questi siti ufficiali:\n\n• Pensami - INPS: Un simulatore capace di rispondere alle domande più comuni riguardo al tuo futuro pensionistico.\n• COVIP - Autorità di vigilanza sui Fondi Pensione: Offre risorse preziose per l'educazione previdenziale.",
+            "text": "Per approfondire la tua conoscenza sulla previdenza e prendere decisioni informate, ti consigliamo di visitare questi siti ufficiali:\n\n• Pensami - INPS: Un simulatore capace di rispondere alle domande più comuni riguardo al tuo futuro pensionistico.\n• COVIP - Autorità di vigilanza sui Fondi Pensione: Offre risorse preziose per l'educazione previdenziale.\n• PrevIverso: un welfare action-lab dedicato alle nuove generazioni, che esplora le sfide e opportunità legate alla previdenza complementare, con l'obiettivo di sensibilizzare i giovani sui fondi pensione e promuovere la consapevolezza finanziaria. \n• Quello che conta: portale nazionale di educazione finanziaria, assicurativa e previdenziale, che aiuta i cittadini a prendere decisioni consapevoli sulla gestione delle proprie risorse economiche. \n• Itinerari Previdenziali: centro studi e ricerche su welfare, previdenza e assistenza sociale, fornendo approfondimenti e analisi sull'evoluzione dei sistemi previdenzialix",
             "cta": [
                 {
                     "text": "Visita Pensami - INPS",
@@ -67,6 +67,18 @@
                 {
                     "text": "Esplora COVIP",
                     "link": "https://www.covip.it/per-il-cittadino/educazione-previdenziale"
+                },
+                {
+                    "text": "Previverso",
+                    "link": "https://www.previverso.it/"
+                },
+                {
+                    "text": "Quello che conta",
+                    "link": "https://www.quellocheconta.gov.it/it/"
+                },
+                {
+                    "text": "Itinerari Previdenziali",
+                    "link": "https://www.itinerariprevidenziali.it/site/home.html"
                 }
             ]
         }
