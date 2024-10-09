@@ -3,7 +3,7 @@
         {
             "id": "perche-pensione-integrativa",
             "title": "Perché una pensione integrativa?",
-            "text": "La pensione integrativa è diventata sempre più importante per garantire un futuro finanziario stabile. Con l'aumento dell'aspettativa di vita e la diminuzione delle prestazioni pensionistiche pubbliche nasce il concetto di Gap Previdenziale (Link a pagina di approfondimento o tooltip con questa definizione). Il Gap Previdenziale è la differenza percentuale tra la nostra futura pensione e l’ultimo stipendio percepito durante la carriera; La previdenza integrativa offre uno strumento ideale per colmare il gap previdenziale e creare una pensione complementare, in aggiunta a quella erogata dall'INPS o dal tuo ente previdenziale. A giugno 2023, quasi 9 milioni e mezzo di italiani hanno già scelto di programmare il proprio futuro attraverso questi strumenti regolamentati dalla COVIP (Commissione di Vigilanza sui Fondi Pensione). Che tu sia giovane o meno giovane, la previdenza integrativa rappresenta un investimento per il domani e un beneficio fiscale per il presente, offrendo l'opportunità di costruire un futuro più sereno.",
+            "text": "La pensione integrativa è diventata sempre più importante per garantire un futuro finanziario stabile. Con l'aumento dell'aspettativa di vita e la diminuzione delle prestazioni pensionistiche pubbliche nasce il concetto di Gap Previdenziale. Il Gap Previdenziale è la differenza percentuale tra la nostra futura pensione e l’ultimo stipendio percepito durante la carriera. La previdenza integrativa offre uno strumento ideale per colmare il gap previdenziale e creare una pensione complementare, in aggiunta a quella erogata dall'INPS o dal tuo ente previdenziale. A giugno 2023, quasi 9 milioni e mezzo di italiani hanno già scelto di programmare il proprio futuro attraverso questi strumenti regolamentati dalla COVIP (Commissione di Vigilanza sui Fondi Pensione). Che tu sia giovane o meno giovane, la previdenza integrativa rappresenta un investimento per il domani e un beneficio fiscale per il presente, offrendo l'opportunità di costruire un futuro più sereno.",
             "cta": {
                 "text": "Calcola il tuo Gap previdenziale",
                 "link": "gap-previdenziale.html"
@@ -12,7 +12,7 @@
         {
             "id": "cosa-previdenza-complementare",
             "title": "Che cos'è la previdenza complementare?",
-            "text": "La previdenza complementare è una forma di <b>risparmio</b> che si affianca alla pensione pubblica. Si tratta di un sistema di accumulo di capitale che, attraverso versamenti periodici e una gestione professionale, mira a costruire una rendita aggiuntiva per il periodo di pensionamento."
+            "text": "La previdenza complementare è una forma di risparmio che si affianca alla pensione pubblica. Si tratta di un sistema di accumulo di capitale che, attraverso versamenti periodici e una gestione professionale, mira a costruire una rendita aggiuntiva per il periodo di pensionamento."
         },
         {
             "id": "come-funziona-fondo-pensione",
@@ -24,32 +24,41 @@
             }
         },
         {
-            "id": "obiettivo-previdenza-complementare",
-            "title": "Qual è l'obiettivo della previdenza complementare?",
-            "text": "L'obiettivo principale della previdenza complementare è quello di <b>integrare la pensione pubblica</b>, garantendo un reddito aggiuntivo durante il periodo di pensionamento. Questo permette di mantenere un tenore di vita adeguato e di affrontare con maggiore serenità le esigenze economiche della terza età."
+            "id": "perche-scegliere-arca-previdenza",
+            "title": "Perché scegliere Arca Previdenza?",
+            "text": "Arca Previdenza è il fondo pensione aperto di Arca Fondi SGR, pensato per garantirti un futuro sereno attraverso soluzioni d'investimento flessibili, vantaggi fiscali e comparti su misura per ogni esigenza. Dal 1998, Arca Previdenza rappresenta una delle migliori soluzioni per la previdenza integrativa in Italia. Con oltre 220.000 aderenti e 4,9 miliardi di euro gestiti, si distingue per la sua esperienza pluriennale e la capacità di combinare flessibilità, rendimento e sostenibilità. Grazie alla nostra esperienza pluridecennale, puoi iniziare a pianificare il tuo futuro senza preoccupazioni. Arca Previdenza ti offre la possibilità di personalizzare il tuo piano pensionistico, scegliendo tra vari comparti e adeguando i tuoi investimenti man mano che ti avvicini all'età pensionabile."
         },
         {
-            "id": "sei-iscritto",
-            "title": "E tu? Sei già iscritto?",
-            "text": "Non aspettare oltre per assicurarti un futuro finanziario più sereno. Iscriversi a un fondo pensione complementare è un passo importante verso la sicurezza economica in pensione. Ricorda, prima inizi a versare, maggiori saranno i benefici nel lungo termine. Inoltre, potrai godere di vantaggi fiscali immediati sui tuoi versamenti. Non lasciare che il tempo passi senza agire: il tuo futuro inizia oggi!",
-            "cta": {
-                "text": "Iscriviti ora",
-                "link": "https://mao.arcaonline.it/"
-            }
+            "id": "benefici-fiscali-vantaggi",
+            "title": "Benefici fiscali e vantaggi per il tuo risparmio",
+            "text": "Una delle principali caratteristiche di Arca Previdenza sono i suoi vantaggi fiscali. I contributi che versi possono essere dedotti fino a 5.164,57 euro all'anno, riducendo così la tua base imponibile e permettendoti di risparmiare sulle tasse. Inoltre, la tassazione sui rendimenti è agevolata, con un'aliquota pari al 20%, inferiore rispetto al 26% tipico di altre forme di risparmio. Questo significa che, nel lungo termine, il tuo capitale può crescere più velocemente e in modo più efficiente."
         },
         {
-            "id": "schede-prodotto",
-            "title": "Fondi Pensione le nostre soluzioni - Schede prodotto",
-            "text": "Esplora le nostre soluzioni di previdenza complementare. Abbiamo opzioni adatte a ogni esigenza e profilo di rischio. Dalle nostre schede prodotto potrai ottenere informazioni dettagliate su ogni fondo, comprenderne le caratteristiche e scegliere quello più adatto alle tue esigenze.",
-            "cta": {
-                "text": "Visualizza le schede",
-                "link": "nostri-fondi-pensione.html"
-            }
+            "id": "comparti-su-misura",
+            "title": "Comparti su misura per ogni esigenza",
+            "text": "Arca Previdenza ti offre quattro comparti di investimento, ognuno progettato per soddisfare esigenze diverse in termini di rischio e rendimento:",
+            "list": [
+                "Alta Crescita Sostenibile: Per chi vuole massimizzare i rendimenti nel lungo periodo, investendo in asset dinamici e sostenibili.",
+                "Crescita Sostenibile: Un'opzione equilibrata per chi cerca un mix di rendimento e moderata volatilità.",
+                "Rendita Sostenibile: Un comparto più conservativo, ideale per chi si avvicina alla pensione e preferisce una maggiore stabilità.",
+                "Obiettivo TFR: Perfetto per chi desidera valorizzare il proprio Trattamento di Fine Rapporto (TFR) con investimenti sicuri e sostenibili."
+            ],
+            "text_after_list": "I comparti di Arca Previdenza sono gestiti seguendo i principi ESG (Environmental, Social, Governance), investendo in aziende sostenibili che rispettano l'ambiente e promuovono un impatto sociale positivo."
+        },
+        {
+            "id": "piano-accumulo-smart",
+            "title": "Piano di Accumulo Smart e flessibilità totale",
+            "text": "Con Arca Previdenza, puoi usufruire di un piano di accumulo smart, versando importi periodici senza dover fare grandi sacrifici economici nel presente. Grazie alla sua flessibilità, hai la possibilità di modificare il tuo piano in base alle tue esigenze e ai tuoi obiettivi, senza vincoli rigidi. Il nostro Programma Life Cycle ti permette di ridurre progressivamente il rischio del tuo portafoglio man mano che ti avvicini alla pensione, proteggendo il tuo capitale accumulato e garantendo un futuro sereno."
+        },
+        {
+            "id": "accumula-senza-rinunce",
+            "title": "Accumula senza rinunce",
+            "text": "Costruire il tuo futuro non deve significare fare rinunce oggi. Con Arca Previdenza, puoi accantonare il tuo risparmio pensionistico in modo graduale e intelligente, senza dover sacrificare la tua qualità di vita presente. Che tu stia cercando di pianificare il lungo termine o desideri semplicemente un'opzione previdenziale per integrare la tua pensione, Arca Previdenza è la scelta perfetta per accumulare in modo strategico, con la serenità di un fondo sicuro e sostenibile."
         },
         {
             "id": "aderisci-online",
-            "title": "Aderisci online",
-            "text": "Aderire al nostro fondo pensione è facile, veloce e sicuro. Con <b>pochi click </b>puoi iniziare il tuo percorso verso una pensione più solida. La nostra piattaforma online ti guiderà passo dopo passo nel processo di adesione, permettendoti di completare l'iscrizione comodamente da casa. Non rimandare a domani la tua sicurezza finanziaria: inizia oggi stesso!",
+            "title": "Inizia oggi con Arca Previdenza",
+            "text": "Non aspettare. Scopri subito come Arca Previdenza può aiutarti a costruire un futuro solido e sicuro. Contatta uno dei nostri consulenti o visita il nostro sito per maggiori informazioni su come aderire. Aderire al nostro fondo pensione è facile, veloce e sicuro. Con pochi click puoi iniziare il tuo percorso verso una pensione più solida. La nostra piattaforma online ti guiderà passo dopo passo nel processo di adesione, permettendoti di completare l'iscrizione comodamente da casa.",
             "cta": {
                 "text": "Aderisci ora",
                 "link": "https://mao.arcaonline.it/"
@@ -58,7 +67,14 @@
         {
             "id": "siti-consigliati",
             "title": "I siti che ti consigliamo",
-            "text": "Per approfondire la tua conoscenza sulla previdenza e prendere decisioni informate, ti consigliamo di visitare questi siti ufficiali:\n\n• Pensami - INPS: Un simulatore capace di rispondere alle domande più comuni riguardo al tuo futuro pensionistico.\n• COVIP - Autorità di vigilanza sui Fondi Pensione: Offre risorse preziose per l'educazione previdenziale.\n• PrevIverso: un welfare action-lab dedicato alle nuove generazioni, che esplora le sfide e opportunità legate alla previdenza complementare, con l'obiettivo di sensibilizzare i giovani sui fondi pensione e promuovere la consapevolezza finanziaria. \n• Quello che conta: portale nazionale di educazione finanziaria, assicurativa e previdenziale, che aiuta i cittadini a prendere decisioni consapevoli sulla gestione delle proprie risorse economiche. \n• Itinerari Previdenziali: centro studi e ricerche su welfare, previdenza e assistenza sociale, fornendo approfondimenti e analisi sull'evoluzione dei sistemi previdenzialix",
+            "text": "Per approfondire la tua conoscenza sulla previdenza e prendere decisioni informate, ti consigliamo di visitare questi siti ufficiali:",
+            "list": [
+                "Pensami - INPS: Un simulatore capace di rispondere alle domande più comuni riguardo al tuo futuro pensionistico.",
+                "COVIP - Autorità di vigilanza sui Fondi Pensione: Offre risorse preziose per l'educazione previdenziale.",
+                "PrevIverso: un welfare action-lab dedicato alle nuove generazioni, che esplora le sfide e opportunità legate alla previdenza complementare.",
+                "Quello che conta: portale nazionale di educazione finanziaria, assicurativa e previdenziale, che aiuta i cittadini a prendere decisioni consapevoli.",
+                "Itinerari Previdenziali: centro studi e ricerche su welfare, previdenza e assistenza sociale, fornendo approfondimenti e analisi sull'evoluzione dei sistemi previdenziali."
+            ],
             "cta": [
                 {
                     "text": "Visita Pensami - INPS",
